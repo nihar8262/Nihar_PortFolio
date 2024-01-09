@@ -10,7 +10,7 @@ export const Project = () => {
     <div className="flex  flex-col justify-center items-center ">
 
       {/* Project header */}
-      <div className="text-white text-center mt-10  w-[25rem] md:w-[40rem]">
+      <div className="text-white text-center mt-10  w-[20rem] md:w-[40rem]">
         <h1 className="font-bold text-3xl mb-10 border-b-2 border-b-yellow-500 py-2">Projects</h1>
         <p className="">
         I have worked on a wide range of projects. 

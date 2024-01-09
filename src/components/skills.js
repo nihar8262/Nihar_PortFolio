@@ -47,7 +47,7 @@ export const Skills = () => {
         </div>
         
 
-       <div className="w-[24rem] md:grid md:grid-cols-2  md:gap-10  mt-10  md:w-[35rem]  ">
+       <div className="w-[20rem] md:grid md:grid-cols-2  md:gap-10  mt-10  md:w-[35rem]  ">
             {
                 skills.map((skill) =>(
                     <div className="border-2 border-[#854CE6] shadow-lg shadow-indigo-500/25  mt-5 p-5 rounded-lg mb-10 ">
