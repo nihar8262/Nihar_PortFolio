@@ -24,7 +24,7 @@ export const Skills = () => {
         </div>
         {/* Skills container */}
        <div className=" justify-center">
-       <div className="hidden absolute bottom-96 left-0 md:left-28 transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:translate-y-5">
+       <div className="hidden md:block absolute bottom-96 left-0 md:left-28 transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:translate-y-5">
             <img src={image4} alt="" className="w-24"/>
         </div>
         <div className=" absolute bottom-72 right-0 md:right-28 transfom transition duration-500 hover:scale-125 hover:translate-x-5 hover:-translate-y-10">
@@ -47,7 +47,7 @@ export const Skills = () => {
         </div>
         
 
-       <div className="w-[25rem] md:grid md:grid-cols-2  md:gap-10  mt-10  md:w-[35rem]  ">
+       <div className="w-[24rem] md:grid md:grid-cols-2  md:gap-10  mt-10  md:w-[35rem]  ">
             {
                 skills.map((skill) =>(
                     <div className="border-2 border-[#854CE6] shadow-lg shadow-indigo-500/25  mt-5 p-5 rounded-lg mb-10 ">

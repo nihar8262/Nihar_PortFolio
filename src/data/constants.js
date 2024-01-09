@@ -322,7 +322,7 @@ export const Bio = {
       description:
         "A movie and its cast description app where any one can know about their favourite movies and movie actors.Search bar is also given to search and get information about your favourite movies. All the movies and the cast deatils are feteched using TDMB api.",
       image:image4,
-      tags: ["React Native", "JavaScript", "Axios"],
+      tags: ["React Native", "JavaScript", "Axios", "Firebase",],
       category: "android app",
       github: "https://github.com/nihar8262/NetChillin",
       webapp: "https://github.com/nihar8262/NetChillin",
@@ -337,7 +337,7 @@ export const Bio = {
       description:
         "A food delivering Anroid App,which has different restrauntns to order food.Redux is used to add item to your cart.And map is given to see where the restraunt is and how much it will take to deliver it.",
       image:image5,
-      tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
+      tags: ["React Native","JavaScript",  "Firebase", "Graph QL","Sanity"],
       category: "android app",
       github: "https://github.com/nihar8262/food-app",
       webapp: "https://github.com/nihar8262/food-app",
