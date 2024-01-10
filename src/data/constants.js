@@ -332,7 +332,7 @@ export const Bio = {
     
     {
       id: 7,
-      title: "Food App",
+      title: "Foodiee",
       date: "Nov 2023 - Present",
       description:
         "A food delivering Anroid App,which has different restaurant to order food.Redux is used to add item to your cart.And map is given to see where the restaurant is and how much it will take to deliver it.",
