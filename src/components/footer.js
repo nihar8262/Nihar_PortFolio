@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Bio } from "../data/constants";
 import image from "../Image/astro1.png";
 import image3 from "../Image/planet.png";
 import image4 from "../Image/planet1.png";
 
 import { FaLinkedin, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { Mobilenav } from "./mobilenav";
+import { Message } from "./message";
 
 export const Footer = () => {
+  const [nav ,setNav]=useState(false);
   return (
     <div className="relative flex  flex-col justify-center items-center mt-40 ">
       {/* images */}
@@ -14,8 +17,13 @@ export const Footer = () => {
         <img src={image4} alt="" className="w-24" />
       </div>
 
-      <div className=" absolute -top-28 z-0   transfom transition duration-500 hover:scale-125  hover:-translate-y-10">
+      <div className=" absolute -top-36 z-0   transfom transition duration-500 hover:scale-125  hover:-translate-y-10">
+        <button onClick={()=> setNav(!nav)}>
+        {
+                nav ? <Message/> :null
+            }
         <img src={image} alt="" className="w-28"></img>
+        </button>
       </div>
 
       <div className="hidden absolute top-0 right-32 md:block transfom transition duration-500 hover:scale-125 hover:-translate-x-10 hover:translate-y-5">

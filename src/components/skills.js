@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { skills } from "../data/constants";
 import image from "../Image/astro1.png"
 import image1 from "../Image/astro2.png"
@@ -7,9 +7,11 @@ import image3 from "../Image/planet.png"
 import image4 from "../Image/planet1.png"
 import image5 from "../Image/rocket.png"
 import image6 from "../Image/satellite.png"
+import { Message } from "./message";
 
 
 export const Skills = () => {
+    const [nav ,setNav]=useState(false);
   return (
     <div id="skills">
       <div className="flex relative flex-col justify-center items-center">
@@ -37,7 +39,12 @@ export const Skills = () => {
             <img src={image} alt="" className="w-24"/>
         </div>
         <div className=" absolute top-52 left-auto md:left-auto transfom transition duration-500 hover:scale-125  hover:-translate-y-10">
+            <button onClick={()=> setNav(!nav)}>
+            {
+                nav ? <Message/> :null
+            }
             <img src={image1} alt="" className="w-24"/>
+            </button>
         </div>
         <div className=" absolute bottom-96 left-auto md:left-80 md:bottom-40 transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:translate-y-5">
             <img src={image6} alt="" className="w-24"/>

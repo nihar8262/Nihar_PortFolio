@@ -9,7 +9,7 @@ export const Mobilenav = () => {
         <a href='#skills' className='border-b-2 mt-2 border-yellow-500'>Skills</a>
         <a href='#projects' className='border-b-2 mt-2 border-yellow-500'>Project</a>
         <a href='#contact' className='border-b-2 mt-2 border-yellow-500'>Contact</a>
-        <a href='' className='border-b-2 mt-2 border-yellow-500'>Education</a>
+
         {/* button */}
         <div className="mt-4 ">
           <a
