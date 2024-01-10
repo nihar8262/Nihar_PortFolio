@@ -13,11 +13,18 @@ export const Footer = () => {
   return (
     <div className="relative flex  flex-col justify-center items-center mt-40 ">
       {/* images */}
-      <div className="hidden absolute top-0 left-32 md:block transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:translate-y-5">
+      <div className="hidden absolute z-10 top-0 left-20 md:block transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:translate-y-5">
         <img src={image4} alt="" className="w-24" />
       </div>
+      <div className="hidden absolute z-10 top-0 right-20 md:block transfom transition duration-500 hover:scale-125 hover:-translate-x-10 hover:translate-y-5">
+        <img src={image3} alt="" className="w-28" />
+      </div>
+      <div className="absolute w-full h-[26rem] bottom-0 -z-5">
+      <iframe src='https://my.spline.design/rocket-a8353f0b47437c964c2e201454c32c0e/' frameborder='0' width='100%' height='100%'></iframe>
+  
+      </div>
 
-      <div className=" absolute -top-36 z-0   transfom transition duration-500 hover:scale-125  hover:-translate-y-10">
+      <div className=" absolute -top-52 left-0 z-0   transfom transition duration-500 hover:scale-125  hover:-translate-y-10">
         <button onClick={()=> setNav(!nav)}>
         {
                 nav ? <Message/> :null
@@ -26,14 +33,10 @@ export const Footer = () => {
         </button>
       </div>
 
-      <div className="hidden absolute top-0 right-32 md:block transfom transition duration-500 hover:scale-125 hover:-translate-x-10 hover:translate-y-5">
-        <img src={image3} alt="" className="w-28" />
-      </div>
+      
 
       <div>
-        <h1 className="text-3xl text-[#854CE6] font-bold mb-20">
-          Nihar Chandra Sharma
-        </h1>
+        
       </div>
       <div className="flex mb-32 gap-10">
         <div className="transform transiltion duration-500 hover:scale-125 cursor-pointer border p-4 rounded-full">

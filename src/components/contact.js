@@ -28,7 +28,7 @@ export const Contact = () => {
         <form
          action="https://formspree.io/f/xjvnvnyo"
          method="POST"
-         className="bg-[#171721] p-4 mt-10 w-[22rem] md:w-[30rem] rounded-lg shadow-lg shadow-blue-800/50 flex flex-col gap-5 mb-20">
+         className="bg-[#171721] p-4 mt-10 w-[22rem] md:w-[30rem] rounded-lg shadow-lg shadow-blue-800/50 flex flex-col gap-5 mb-28">
           <div>
             <h1 className="text-white font-bold text-3xl">Email Me 🚀</h1>
           </div>
@@ -88,6 +88,9 @@ export const Contact = () => {
           
           
         </form>
+        <h1 className=" md:text-6xl md:font-extrabold text-3xl text-[#130d20] font-extrabold mb-[3.75rem]">
+          Nihar Chandra Sharma
+        </h1>
         </div>
       </div>
     </div>
