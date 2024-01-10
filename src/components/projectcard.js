@@ -4,7 +4,7 @@ import { projects } from '../data/constants'
 
 export const Projectcard = () => {
   return (
-    <div className='flex items-center justify-center mt-20 mb-26 lg:w-[80rem] md:w-[50rem]'>
+    <div className='flex items-center justify-center mt-20 mb-26 lg:w-[60rem] md:w-[40rem]'>
         <div className='flex flex-wrap justify-center'>
             {
                 projects.map((item) =>(
