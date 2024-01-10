@@ -19,7 +19,7 @@ export const Skills = () => {
           <h1 className="font-bold  text-3xl mb-10 border-b-2 border-b-yellow-500 py-2">Skills</h1>
           <p className="">
             Here are some of my skills on which I have been working on for the
-            past 2 years.
+            past 3 years.
           </p>
         </div>
         {/* Skills container */}
@@ -33,7 +33,7 @@ export const Skills = () => {
         <div className=" absolute top-16 right-0 md:right-28 transfom transition duration-500 hover:scale-125 hover:-translate-x-10 hover:translate-y-5">
             <img src={image3} alt="" className="w-24"/>
         </div>
-        <div className=" absolute top-96 right-20 md:top-52 md:right-80 transfom transition duration-500 hover:scale-125  hover:-translate-y-10">
+        <div className=" absolute top-auto right-20 md:top-52 md:right-36 transfom transition duration-500 hover:scale-125  hover:-translate-y-10">
             <img src={image} alt="" className="w-24"/>
         </div>
         <div className=" absolute top-52 left-auto md:left-auto transfom transition duration-500 hover:scale-125  hover:-translate-y-10">
