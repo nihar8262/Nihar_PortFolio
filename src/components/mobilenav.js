@@ -4,7 +4,7 @@ import { Bio } from '../data/constants'
 
 export const Mobilenav = () => {
   return (
-    <div className='flex flex-col w-[30rem] sm:w-[42rem] bg-black/30 text-3xl p-6 absolute -top-8 right-0 -z-10'>
+    <div className='flex flex-col w-[20rem]  sm:w-[42rem] bg-black/30 text-3xl p-8 absolute -top-8 right-0 -z-10'>
         <a href='#about' className='border-b-2 border-yellow-500'>About</a>
         <a href='#skills' className='border-b-2 mt-2 border-yellow-500'>Skills</a>
         <a href='#projects' className='border-b-2 mt-2 border-yellow-500'>Project</a>

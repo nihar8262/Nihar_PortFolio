@@ -7,7 +7,7 @@ import Typewriter from "typewriter-effect";
 export const Herosection = () => {
   return (
     <div id="about">
-      <div className=" md:flex md:flex-row-reverse  justify-center  mx-auto">
+      <div className=" md:flex md:flex-row-reverse  w-full justify-center  mx-auto">
          {/* image */}
         {/* <HeroBgAnimation/> */}
         <div className=" md:w-full h-full flex justify-center  md:mr-20">
@@ -23,7 +23,7 @@ export const Herosection = () => {
             <br />
             {Bio.name}
           </p>
-          <div className="font-bold justify-center text-2xl flex gap-2 items-center text-white mb-4 md:text-start md:justify-start">
+          <div className="font-bold w-[full] justify-center text-2xl flex gap-2 items-center text-white mb-4 md:text-start md:justify-start">
             I am a
             <span className="role text-3xl font-bold text-[#854CE6]">
               <Typewriter
@@ -36,7 +36,7 @@ export const Herosection = () => {
             </span>
           </div>
           {/* desc */}
-          <div className="mb-4">
+          <div className="mb-4  w-[10rem] md:w-full">
             <p className="text-slate-500">{Bio.description}</p>
           </div>
           {/* button */}
