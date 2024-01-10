@@ -27,7 +27,7 @@ export const Skills = () => {
        <div className="hidden md:block absolute bottom-96 left-0 md:left-28 transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:translate-y-5">
             <img src={image4} alt="" className="w-24"/>
         </div>
-        <div className=" absolute bottom-72 right-0 md:right-28 transfom transition duration-500 hover:scale-125 hover:translate-x-5 hover:-translate-y-10">
+        <div className="hidden md:block absolute bottom-72 right-0 md:right-28 transfom transition duration-500 hover:scale-125 hover:translate-x-5 hover:-translate-y-10">
             <img src={image5} alt="" className="w-24"/>
         </div>
         <div className=" absolute top-16 right-0 md:right-28 transfom transition duration-500 hover:scale-125 hover:-translate-x-10 hover:translate-y-5">
@@ -42,7 +42,7 @@ export const Skills = () => {
         <div className=" absolute bottom-96 left-auto md:left-80 md:bottom-40 transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:translate-y-5">
             <img src={image6} alt="" className="w-24"/>
         </div>
-        <div className=" absolute bottom-0 right-20 md:right-20 md:bottom-0 transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:-translate-y-5">
+        <div className="hidden md:block absolute bottom-0 right-20 md:right-20 md:bottom-0 transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:-translate-y-5">
             <img src={image2} alt="" className="w-24"/>
         </div>
         
