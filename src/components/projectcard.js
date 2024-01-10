@@ -8,7 +8,7 @@ export const Projectcard = () => {
         <div className='flex flex-wrap justify-center'>
             {
                 projects.map((item) =>(
-                    <div className='bg-slate-900 p-6 w-[24rem] rounded-lg m-5 text-white md:w-[20rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 '>
+                    <div className='bg-slate-900 p-6 w-[21rem] rounded-lg m-5 text-white md:w-[20rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 '>
                         <img src={item?.image} alt="" className=' rounded-md mb-4 h-48 md:h-40'/>
                         <div className='flex flex-wrap gap-2 w-[18rem] text-[#854CE6] '>
                      {  item.tags.map((tag)=>(
