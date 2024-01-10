@@ -269,7 +269,7 @@ export const Bio = {
     {
       id: 9,
       title: "Github Detective",
-      date: "Jan 2023 - Jan 2023",
+      date: "Jun 2023 - June 2023",
       description:
         "This website shows the profile of Github users by entering the username user want to search.",
       image:image3,
@@ -300,7 +300,7 @@ export const Bio = {
     {
       id: 1,
       title: "Weather App",
-      date: "Oct 2022 - Present",
+      date: "May 2023 - May 2023",
       description:
         "Search the weather conditions of any city using city name,Weather info is fetched using OpenWeather Api.",
       image:image2,
@@ -318,7 +318,7 @@ export const Bio = {
     {
       id: 10,
       title: "Net Chillin",
-      date: "Sep 2023 - Present",
+      date: "Oct 2023 - Present",
       description:
         "A movie and its cast description app where any one can know about their favourite movies and movie actors.Search bar is also given to search and get information about your favourite movies. All the movies and the cast deatils are feteched using TDMB api.",
       image:image4,
@@ -333,9 +333,9 @@ export const Bio = {
     {
       id: 7,
       title: "Food App",
-      date: "Oct 2023 - Present",
+      date: "Nov 2023 - Present",
       description:
-        "A food delivering Anroid App,which has different restrauntns to order food.Redux is used to add item to your cart.And map is given to see where the restraunt is and how much it will take to deliver it.",
+        "A food delivering Anroid App,which has different restaurant to order food.Redux is used to add item to your cart.And map is given to see where the restaurant is and how much it will take to deliver it.",
       image:image5,
       tags: ["React Native","JavaScript",  "Firebase", "Graph QL","Sanity"],
       category: "android app",
