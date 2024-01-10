@@ -10,7 +10,7 @@ export const Contact = () => {
     <div id="contact" >
       <div className="flex  flex-col justify-center items-center  ">
         {/* contact header */}
-        <div className="text-white text-center mt-10  w-[22rem] mb-10 md:w-[34rem] ">
+        <div className="text-white text-center mt-10  w-[20rem] mb-10 md:w-[34rem] ">
           <h1 className="font-bold text-3xl mb-10 border-b-2 border-b-yellow-500 py-2">
             Contact
           </h1>
