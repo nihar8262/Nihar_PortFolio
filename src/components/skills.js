@@ -26,7 +26,7 @@ export const Skills = () => {
         </div>
         {/* Skills container */}
        <div className=" justify-center">
-       <div className="hidden md:block absolute bottom-96 left-0 md:left-28 transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:translate-y-5 animate-spin">
+       <div className="hidden md:block absolute bottom-96 left-0 md:left-28 transfom transition duration-500 hover:scale-125 hover:animate-spin">
             <img src={image4} alt="" className="w-24"/>
         </div>
         <div className="hidden md:block absolute bottom-72 right-0 md:right-28 transfom transition duration-500 hover:scale-125 hover:translate-x-5 hover:-translate-y-10">

@@ -8,7 +8,7 @@ export const Navbar = () => {
     const [nav ,setNav]=useState(false);
   return (
     <div
-      className="bg-[#191924] h-[80px] flex justify-center items-center 
+      className="bg-[#191924]  h-[80px] flex justify-center items-center 
      text-[1.1rem] sticky top-0 z-10 md:transition-all ease-in-out delay-75 "
     >
         {/* Nav Container */}
