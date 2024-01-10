@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Projectcard } from './projectcard'
+import image from "../Image/astro1.png"
+import image5 from "../Image/rocket.png"
+import { Message } from './message'
 
 
 export const Project = () => {
     
     // const [toggle,setToggle] = useState("all");
+    const [nav ,setNav]=useState(false);
   return (
     <div id="projects">
-    <div className="flex  flex-col justify-center items-center ">
+    <div className=" relative flex  flex-col justify-center items-center ">
 
       {/* Project header */}
       <div className="text-white text-center mt-10  w-[20rem] md:w-[35rem]">
@@ -24,9 +28,21 @@ export const Project = () => {
         <button  className='border-l p-1 border-[#854CE6] hover:text-yellow-500'>WEB APP'S</button>
         <button className='border-l p-1 border-[#854CE6] hover:text-yellow-500'>ANDROID APP'S</button>
       </div>
+      <div className=" absolute top-52 left-20 md:top-52 md:left-96  transfom transition duration-500 hover:scale-125  hover:-translate-y-10">
+      <button onClick={()=> setNav(!nav)}>
+            {
+                nav ? <Message/> :null
+            }
+            <img src={image} alt="" className="w-24"/>
+            </button>
+        </div>
+        <div className="hidden md:block z-10 absolute bottom-72  md:right-28 transfom transition duration-500 hover:scale-125 hover:translate-x-5  hover:-translate-y-10">
+            <img src={image5} alt="" className="w-24"/>
+        </div>
 
       {/* projects */}
       <div className='relative'>
+      
       
         <Projectcard/>
         {/* {

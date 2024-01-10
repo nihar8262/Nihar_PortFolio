@@ -13,7 +13,7 @@ export const Herosection = () => {
         <div className=" md:w-full h-full flex justify-center  md:mr-20">
           <img
             src={image} alt=""
-            className=" w-[20rem]  rounded-full relative  border-2 border-[#854CE6] mt-8"
+            className=" w-[20rem]  rounded-full relative  border-2 border-[#854CE6] hover:shadow-lg hover:shadow-indigo-500/25 mt-8"
           />
         </div>
         {/* hero header */}
