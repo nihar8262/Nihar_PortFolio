@@ -28,7 +28,7 @@ export const Contact = () => {
         <form
          action="https://formspree.io/f/xjvnvnyo"
          method="POST"
-         className="bg-[#171721] p-4 mt-10 w-[22rem]  rounded-lg shadow-lg shadow-blue-800/50 flex flex-col gap-5 mb-20">
+         className="bg-[#171721] p-4 mt-10 w-[22rem] md:w-[30rem] rounded-lg shadow-lg shadow-blue-800/50 flex flex-col gap-5 mb-20">
           <div>
             <h1 className="text-white font-bold text-3xl">Email Me 🚀</h1>
           </div>
