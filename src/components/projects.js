@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { Projectcard } from './projectcard'
 import image from "../Image/astro1.png"
-import image5 from "../Image/rocket.png"
 import { Message } from './message'
 
 
