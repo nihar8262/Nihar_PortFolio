@@ -7,13 +7,13 @@ import Typewriter from "typewriter-effect";
 export const Herosection = () => {
   return (
     <div id="about">
-      <div className=" md:flex md:flex-row-reverse  w-full justify-center  mx-auto">
+      <div className=" md:flex md:flex-row-reverse  w-full justify-center  items-center  mx-auto">
          {/* image */}
         {/* <HeroBgAnimation/> */}
-        <div className=" md:w-full h-full flex justify-center  md:mr-20">
+        <div className=" md:w-full h-full flex justify-center  ">
           <img
             src={image} alt=""
-            className=" w-[20rem]  rounded-full relative  border-2 border-[#854CE6] hover:shadow-lg hover:shadow-indigo-500/25 mt-8"
+            className=" w-[20rem]  rounded-full relative  border-2 border-[#854CE6] hover:shadow-xl hover:shadow-indigo-500/25 mt-8"
           />
         </div>
         {/* hero header */}
@@ -36,7 +36,7 @@ export const Herosection = () => {
             </span>
           </div>
           {/* desc */}
-          <div className="mb-4  w-[10rem] md:w-full">
+          <div className="mb-4   md:w-full">
             <p className="text-slate-500">{Bio.description}</p>
           </div>
           {/* button */}
