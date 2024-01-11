@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { skills } from "../data/constants";
 import image1 from "../Image/astro2.png"
-import image2 from "../Image/fire.png"
 import image3 from "../Image/planet.png"
 import image4 from "../Image/planet1.png"
 import image6 from "../Image/satellite.png"
@@ -28,7 +27,7 @@ export const Skills = () => {
             <img src={image4} alt="" className="w-24"/>
         </div>
         
-        <div className=" absolute top-16 right-44 md:right-28 transfom transition duration-500 hover:scale-125  hover:translate-y-10   ">
+        <div className=" absolute hidden md:block top-16 right-44 md:right-28 transfom transition duration-500 hover:scale-125  hover:translate-y-10   ">
             <img src={image3} alt="" className="w-24"/>
         </div>
         
