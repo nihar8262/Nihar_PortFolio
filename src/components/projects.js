@@ -36,9 +36,7 @@ export const Project = () => {
             <img src={image} alt="" className="w-24"/>
             </button>
         </div>
-        <div className="hidden md:block z-10 absolute bottom-72  md:right-28 transfom transition duration-500 hover:scale-125 hover:translate-x-5  hover:-translate-y-10">
-            <img src={image5} alt="" className="w-24"/>
-        </div>
+       
 
       {/* projects */}
       <div className='relative'>
