@@ -31,7 +31,7 @@ export const Navbar = () => {
           style={{
             transitionDelay:500
           }}
-          className=" block  top-0 right-0 mb-4 ml-0   transform duration-100 text-2xl cursor-pointer text-[#F2F3F4] md:hidden">
+          className=" block  -top-4 right-0 mb-4 ml-0   transform duration-100 text-2xl cursor-pointer text-[#F2F3F4] md:hidden">
             <button onClick={()=> setNav(!nav)}>
             {
                 nav ? <FaTimes/> :<FaBars/>
