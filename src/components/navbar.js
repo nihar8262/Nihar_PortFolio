@@ -21,7 +21,7 @@ export const Navbar = () => {
         {/* Nav Container */}
       <div className="flex items-center justify-between gap-16 w-[40rem] px-2">
         {/* Logo */}
-        <div className="text-white text-2xl   
+        <div className="text-white text-3xl   
          sm:text-white cursor-pointer font-bold justify-start px-0 mr-25 ">
          <p className="bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-400">Nihar</p>
         </div>

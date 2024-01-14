@@ -20,11 +20,11 @@ export const Herosection = () => {
         <div className=" w-full  justify-center text-center mt-10 px-32 md:items-start md:text-start">
           <p className="text-white font-bold md:text-2xl mb-4 ">
             Hi,I am
-            <br />
+            <br/>
             {Bio.name}
           </p>
           <div className="font-bold w-[full] justify-center text-xs sm:text-xl md:text-2xl flex gap-2 items-center text-white mb-4 md:text-start md:justify-start">
-            I am a
+          I am a
             <span className="role  md:text-3xl font-bold text-[#854CE6]">
               <Typewriter
                 options={{
