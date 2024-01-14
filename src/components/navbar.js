@@ -11,7 +11,7 @@ export const Navbar = () => {
     const [nav ,setNav]=useState(false);
     const variants = {
       open: { opacity: 1, y: 0 },
-      closed: { opacity: 1, y: "40%" },
+      closed: { opacity: 1, y: "-50%" },
     }
   return (
     <div
@@ -19,11 +19,11 @@ export const Navbar = () => {
      text-[1.1rem] sticky top-0 z-10 md:transition-all ease-in-out delay-75 "
     >
         {/* Nav Container */}
-      <div className="flex items-center justify-evenly gap-16 w-[40rem]">
+      <div className="flex items-center justify-between gap-16 w-[40rem] px-2">
         {/* Logo */}
-        <div className="text-white text-2xl  sm:text-white cursor-pointer font-bold justify-start px-0 mr-25 ">
-          <span>N</span>
-          ihar
+        <div className="text-white text-2xl   
+         sm:text-white cursor-pointer font-bold justify-start px-0 mr-25 ">
+         <p className="bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-400">Nihar</p>
         </div>
         {/* mobile icon */}
         <motion.div animate={nav ? "open" : "closed"}
@@ -31,7 +31,7 @@ export const Navbar = () => {
           style={{
             transitionDelay:500
           }}
-          className=" block  -top-4 right-0 mb-4 ml-0   transform duration-100 text-2xl cursor-pointer text-[#F2F3F4] md:hidden">
+          className=" block   mt-[4rem] mb-4 ml-0   transform duration-100 text-2xl cursor-pointer text-[#F2F3F4] md:hidden">
             <button onClick={()=> setNav(!nav)}>
             {
                 nav ? <FaTimes/> :<FaBars/>
