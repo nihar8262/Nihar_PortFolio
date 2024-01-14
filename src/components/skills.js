@@ -1,21 +1,23 @@
-import React, { useState } from "react";
-import { skills } from "../data/constants";
+import React, { useRef, useState } from "react";
 import image1 from "../Image/astro2.png"
 import image3 from "../Image/planet.png"
 import image4 from "../Image/planet1.png"
 import image6 from "../Image/satellite.png"
 import { Message } from "./message";
+import { SkillsCard } from "./skillsCard";
 
 
 export const Skills = () => {
     const [nav ,setNav]=useState(false);
+   
   return (
-    <div id="skills">
+    <div
+    id="skills">
       <div className="flex relative flex-col justify-center items-center">
 
         {/* skills header */}
-        <div className="text-white text-center mt-10  w-[20rem] ">
-          <h1 className="font-bold  text-3xl mb-10 border-b-2 border-b-yellow-500 py-2">Skills</h1>
+        <div  className="text-white text-center mt-10  w-[20rem] ">
+          <h1 className=" font-bold  text-3xl mb-10 border-b-2 border-b-yellow-500 py-2">Skills</h1>
           <p className="">
             Here are some of my skills on which I have been working on for the
             past 3 years.
@@ -45,27 +47,9 @@ export const Skills = () => {
         </div>
         
 
-       <div className="w-[20rem] md:grid md:grid-cols-2  md:gap-10  mt-10  md:w-[35rem]  ">
-            {
-                skills.map((skill) =>(
-                    <div className="border-2 border-[#854CE6] shadow-lg shadow-indigo-500/25  mt-5 p-5 rounded-lg mb-10 ">
-                        <h1 className="text-3xl text-center text-slate-500 font-bold mb-5  ">{skill.title}</h1>
-                        <div className="flex  flex-wrap gap-4 items-center justify-center">
-                            {
-                                skill.skills.map((item)=>(
-                                    
-                                    <div className=" border border-slate-500  p-2 flex  rounded-lg justify-center items-center gap-2 ">
-                                        <img src={item.image} alt="" className="w-5 "/><p className="text-white">{item.name}</p>
-                                    </div>
-                                    
-                                ))
-                            }
-                        </div>
-                    </div>
-               ))
-            }
-            
-        </div>
+       <div>
+        <SkillsCard/>
+       </div>
        </div>
       </div>
     </div>

@@ -2,10 +2,17 @@ import React, { useState } from "react";
 import {FaBars, FaGithub, FaTimes} from 'react-icons/fa'
 import { Mobilenav } from "./mobilenav";
 import { Bio } from "../data/constants";
+import {motion } from "framer-motion"
+
+
 
 export const Navbar = () => {
 
     const [nav ,setNav]=useState(false);
+    const variants = {
+      open: { opacity: 1, y: 0 },
+      closed: { opacity: 1, y: "-35%" },
+    }
   return (
     <div
       className="bg-[#191924]  h-[80px] flex justify-center items-center 
@@ -19,7 +26,12 @@ export const Navbar = () => {
           ihar
         </div>
         {/* mobile icon */}
-        <div className=" block  top-0 right-0 mb-4 ml-0 translate-x-full translate-y-1/2 text-2xl cursor-pointer text-[#F2F3F4] md:hidden">
+        <motion.div animate={nav ? "open" : "closed"}
+          variants={variants} 
+          style={{
+            transitionDelay:500
+          }}
+          className=" block  top-0 right-0 mb-4 ml-0  mt-12 transform duration-100 text-2xl cursor-pointer text-[#F2F3F4] md:hidden">
             <button onClick={()=> setNav(!nav)}>
             {
                 nav ? <FaTimes/> :<FaBars/>
@@ -29,7 +41,7 @@ export const Navbar = () => {
                 nav ? <Mobilenav/> :null
             }
             
-        </div>
+        </motion.div>
         {/* Nav content */}
         <div className="text-white hidden gap-4 border p-2 rounded-3xl bg-white/5 md:flex">
           <a

@@ -2,6 +2,9 @@ import React from 'react'
 import { FaGithub } from 'react-icons/fa'
 import { Bio } from '../data/constants'
 
+
+
+
 export const Mobilenav = () => {
   return (
     <div className='flex flex-col w-[20rem]  sm:w-[32rem] bg-black/30 text-3xl p-8 absolute -top-8 right-0 -z-10'>

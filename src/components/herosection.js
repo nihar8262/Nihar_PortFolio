@@ -17,8 +17,8 @@ export const Herosection = () => {
           />
         </div>
         {/* hero header */}
-        <div className=" w-full justify-center text-center mt-10 px-32 md:items-start md:text-start">
-          <p className="text-white font-bold text-2xl mb-4">
+        <div className=" w-full  justify-center text-center mt-10 px-32 md:items-start md:text-start">
+          <p className="text-white font-bold text-2xl mb-4 ">
             Hi,I am
             <br />
             {Bio.name}
