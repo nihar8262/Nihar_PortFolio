@@ -11,7 +11,7 @@ export const Navbar = () => {
     const [nav ,setNav]=useState(false);
     const variants = {
       open: { opacity: 1, y: 0 },
-      closed: { opacity: 1, y: "-35%" },
+      closed: { opacity: 1, y: "40%" },
     }
   return (
     <div
@@ -31,7 +31,7 @@ export const Navbar = () => {
           style={{
             transitionDelay:500
           }}
-          className=" block  top-0 right-0 mb-4 ml-0  mt-12 transform duration-100 text-2xl cursor-pointer text-[#F2F3F4] md:hidden">
+          className=" block  top-0 right-0 mb-4 ml-0   transform duration-100 text-2xl cursor-pointer text-[#F2F3F4] md:hidden">
             <button onClick={()=> setNav(!nav)}>
             {
                 nav ? <FaTimes/> :<FaBars/>
