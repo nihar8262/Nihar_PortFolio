@@ -17,7 +17,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/nihar8262",
     resume:
-      "https://drive.google.com/file/d/1PAxMiB7viL0HXoaU2YERnhnl4VkVeoTk/view?usp=drive_link",
+      "https://drive.google.com/file/d/1O6Wenv88MRe1cyoOv492mv6twnBfJ-Wr/view?usp=drive_link",
     linkedin: "https://www.linkedin.com/in/nihar-chandra-sharma-5559a720a/",
     twitter: "https://twitter.com/NiharChandra9",
     insta: "https://www.instagram.com/niharchandra007?igsh=Znpnc29oa2FvZHZx",
