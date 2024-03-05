@@ -19,7 +19,7 @@ export const Navbar = () => {
      text-[1.1rem] sticky top-0 z-10 md:transition-all ease-in-out delay-75 "
     >
         {/* Nav Container */}
-      <div className="flex items-center justify-between gap-16 w-[40rem] px-2">
+      <div className="flex items-center justify-between gap-60 xl:gap-80 lg:gap-60 sm:gap-10 md:20 ">
         {/* Logo */}
         <div className="text-white text-3xl   
          sm:text-white cursor-pointer font-bold justify-start px-0 mr-25 ">
@@ -31,7 +31,7 @@ export const Navbar = () => {
           style={{
             transitionDelay:500
           }}
-          className=" block   mt-[4rem] mb-4 ml-0   transform duration-100 text-2xl cursor-pointer text-[#F2F3F4] md:hidden">
+          className=" block  -top-4 right-5  mt-[3.75rem] mb-4 ml-0   transform duration-200 text-2xl cursor-pointer text-[#F2F3F4] sm:hidden">
             <button onClick={()=> setNav(!nav)}>
             {
                 nav ? <FaTimes/> :<FaBars/>
@@ -43,35 +43,35 @@ export const Navbar = () => {
             
         </motion.div>
         {/* Nav content */}
-        <div className="text-white hidden gap-4 border p-2 rounded-3xl bg-white/5 md:flex">
+        <div className="text-white hidden sm:gap-4 md:gap-7 border p-1 rounded-3xl bg-black/40 backdrop-blur-lg   sm:flex">
           <a
             href="#about"
-            className="pointer-cursor hover:bg-white/35 hover:text-yellow-500 rounded-3xl p-1 "
+            className="pointer-cursor hover:bg-white/35 hover:backdrop-blur-lg hover:text-yellow-500 rounded-3xl p-2 "
           >
             About
           </a>
           <a
             href="#skills"
-            className="pointer-cursor hover:bg-white/35 hover:text-yellow-500 rounded-3xl p-1 "
+            className="pointer-cursor hover:bg-white/35 hover:backdrop-blur-lg hover:text-yellow-500 rounded-3xl p-2 "
           >
             Skills
           </a>
           
           <a
             href="#projects"
-            className="pointer-cursor hover:bg-white/35 hover:text-yellow-500 rounded-3xl p-1"
+            className="pointer-cursor hover:bg-white/35 hover:backdrop-blur-lg hover:text-yellow-500 rounded-3xl p-2"
           >
             Projects
           </a>
           <a
             href="#contact"
-            className="pointer-cursor hover:bg-white/35 hover:text-yellow-500 rounded-3xl p-1"
+            className="pointer-cursor hover:bg-white/35 hover:backdrop-blur-lg hover:text-yellow-500 rounded-3xl p-2"
           >
             Contact
           </a>
         </div>
         {/* Button */}
-        <div className=" hidden md:block">
+        <div className=" hidden sm:block">
           <a
             href={Bio.github} target="_blank"
             class="relative inline-flex items-center justify-center p-3 px-5 py-2 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group"
