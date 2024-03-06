@@ -11,7 +11,7 @@ export const Mobilenav = () => {
     setNav(false);
   };
   return (
-    <div className='flex flex-col w-[18rem] p-7   bg-black/30 backdrop-blur-lg rounded-3xl  fixed text-3xl   top-8 right-0 -z-10'>
+    <div className='flex flex-col w-[18rem] p-7 shadow-md shadow-black  bg-black/30 backdrop-blur-lg rounded-3xl  fixed text-3xl   top-8 right-0 -z-10'>
       <div className='flex flex-col  '>
 
         <a href='#about' onClick={closeDropdown} className='border-b-2 border-yellow-500'>About</a>

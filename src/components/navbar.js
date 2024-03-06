@@ -10,8 +10,8 @@ export const Navbar = () => {
 
     const [nav ,setNav]=useState(false);
     const variants = {
-      open: { opacity: 1, y: 0 },
-      closed: { opacity: 1, y: "-50%" },
+      open: { opacity: 1, x: 0 },
+      closed: { opacity: 1, x: "-40%" },
     }
   return (
     <div
@@ -23,7 +23,7 @@ export const Navbar = () => {
         {/* Logo */}
         <div className="text-white text-3xl   
          sm:text-white cursor-pointer font-bold justify-start px-0 mr-25 ">
-         <p className="bg-clip-text text-transparent bg-gradient-to-b from-slate-900 to-slate-400">Nihar</p>
+         <p className="bg-clip-text text-transparent bg-gradient-to-b from-slate-700 to-slate-200">Nihar</p>
         </div>
         {/* mobile icon */}
         <motion.div animate={nav ? "open" : "closed"}
@@ -31,7 +31,7 @@ export const Navbar = () => {
           style={{
             transitionDelay:500
           }}
-          className=" block  -top-4 right-5  mt-[3.75rem] mb-4 ml-0   transform duration-200 text-2xl cursor-pointer text-[#F2F3F4] sm:hidden">
+          className=" block   right-5  mt-[0.75rem]  ml-0   transform duration-200 text-2xl cursor-pointer text-[#F2F3F4] sm:hidden">
             <button onClick={()=> setNav(!nav)}>
             {
                 nav ? <FaTimes/> :<FaBars/>
@@ -43,10 +43,10 @@ export const Navbar = () => {
             
         </motion.div>
         {/* Nav content */}
-        <div className="text-white hidden sm:gap-4 md:gap-7 border p-1 rounded-3xl bg-black/40 backdrop-blur-lg   sm:flex">
+        <div className="text-white hidden sm:gap-4 md:gap-7 border p-1 rounded-3xl bg-black/50 backdrop-blur-lg   sm:flex">
           <a
             href="#about"
-            className="pointer-cursor hover:bg-white/35 hover:backdrop-blur-lg hover:text-yellow-500 rounded-3xl p-2 "
+            className="pointer-cursor hover:bg-white/35 hover:backdrop-blur-sm hover:text-yellow-500 rounded-3xl p-2 "
           >
             About
           </a>
