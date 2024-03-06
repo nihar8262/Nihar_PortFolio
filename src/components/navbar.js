@@ -19,7 +19,7 @@ export const Navbar = () => {
      text-[1.1rem] sticky top-0 z-10 md:transition-all ease-in-out delay-75 "
     >
         {/* Nav Container */}
-      <div className="flex items-center justify-between gap-60 xl:gap-80 lg:gap-60 sm:gap-10 md:20 ">
+      <div className="flex items-center justify-between gap-60 xl:gap-80 lg:gap-52 sm:gap-10 md:40 ">
         {/* Logo */}
         <div className="text-white text-3xl   
          sm:text-white cursor-pointer font-bold justify-start px-0 mr-25 ">
