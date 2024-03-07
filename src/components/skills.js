@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, {  useState } from "react";
 import image1 from "../Image/astro2.png"
 import image3 from "../Image/planet.png"
 import image4 from "../Image/planet1.png"

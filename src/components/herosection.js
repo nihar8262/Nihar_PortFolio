@@ -4,9 +4,9 @@ import { Bio } from "../data/constants";
 import Typewriter from "typewriter-effect";
 // import {HeroBgAnimation} from "../components/HeroBgAnimation/index"
 // justify-center items-center gap-16 top-1/2 bottom-0 right-0 left-1/2 overflow-hidden w-full h-full px-0 py-7
-export const Herosection = () => {
+export const Herosection = ({isDropdown,closeModal}) => {
   return (
-    <div id="about">
+    <div id="about" >
       <div className=" md:flex md:flex-row-reverse  w-full justify-center  items-center  mx-auto">
          {/* image */}
         {/* <HeroBgAnimation/> */}

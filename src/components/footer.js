@@ -11,7 +11,8 @@ import { Message } from "./message";
 export const Footer = () => {
   const [nav ,setNav]=useState(false);
   return (
-    <div className="relative flex  flex-col justify-center items-center mt-40 ">
+    <div 
+    className="relative flex  flex-col justify-center items-center mt-40 ">
       {/* images */}
       <div className="hidden absolute z-10 top-0 left-20 md:block transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:translate-y-5">
         <img src={image4} alt="" className="w-24" />

@@ -11,6 +11,7 @@ export const Project = () => {
 
     const [filtered,setFilter]=useState(projects);
     const [project,setProject]=useState(projects);
+    const [ active, setActive]=useState(false);
 
 
 
@@ -43,7 +44,7 @@ export const Project = () => {
       {/* Option */}
       <div className='flex gap-4 text-[#854CE6] p-1  mt-24 border border-[#854CE6] rounded-xl items-center justify-center bg-slate-900 md:text-xl'>
         
-        <button onClick={()=>allProject()} className=' p-1 border-[#854CE6] hover:text-yellow-500'>ALL</button>
+        <button onClick={()=>allProject()} className=' p-1 border-[#854CE6] hover:text-yellow-500' >ALL</button>
         <button onClick={()=>filterProject("web")}  className='border-l p-1 border-[#854CE6] hover:text-yellow-500'>WEB APP'S</button>
         <button onClick={()=>filterProject("android app")} className='border-l p-1 border-[#854CE6] hover:text-yellow-500'>ANDROID APP'S</button>
       </div>

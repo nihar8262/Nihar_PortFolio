@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import {FaBars, FaGithub, FaTimes} from 'react-icons/fa'
 import { Mobilenav } from "./mobilenav";
 import { Bio } from "../data/constants";
@@ -9,12 +9,20 @@ import {motion } from "framer-motion"
 export const Navbar = () => {
 
     const [nav ,setNav]=useState(false);
+    const isDropdown = useRef();
+  const closeModal = (e) => {
+    if(isDropdown.current === e.target){
+      setNav(false);
+    }
+  }
+
+  
     const variants = {
       open: { opacity: 1, x: 0 },
       closed: { opacity: 1, x: "-40%" },
     }
   return (
-    <div
+    <div ref={isDropdown} onClick={closeModal}
       className="bg-[#191924]  h-[80px] flex justify-center items-center 
      text-[1.1rem] sticky top-0 z-10 md:transition-all ease-in-out delay-75 "
     >
@@ -38,7 +46,7 @@ export const Navbar = () => {
             }
             </button>
             {
-                nav ? <Mobilenav/> :null
+                nav ? <Mobilenav nav={nav}/> :null
             }
             
         </motion.div>

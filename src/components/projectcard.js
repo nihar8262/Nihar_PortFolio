@@ -15,7 +15,7 @@ export const Projectcard = ({project}) => {
              
                     <div
                     
-                    className='bg-slate-900 max-h-full p-6 w-[21rem] rounded-lg m-5 text-white  md:w-[20rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 '>
+                    className='bg-slate-900 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[20rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 '>
                         <img src={project?.image} alt="" className=' rounded-md mb-4 h-48 md:h-40 lg:h-48 xl:h-52'/>
                         <div className='flex flex-wrap gap-2 w-[18rem] text-[#854CE6] '>
                      {  project.tags.map((tag)=>(

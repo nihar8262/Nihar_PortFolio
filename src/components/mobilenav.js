@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useRef, useState } from 'react'
 import { FaGithub } from 'react-icons/fa'
 import { Bio } from '../data/constants'
 
@@ -7,14 +7,12 @@ import { Bio } from '../data/constants'
 
 export const Mobilenav = () => {
   const [nav ,setNav]=useState(true);
-  const closeDropdown = () => {
-    setNav(false);
-  };
+  
   return (
     <div className='flex flex-col w-[18rem] p-7 shadow-md shadow-black  bg-black/30 backdrop-blur-md rounded-3xl  fixed text-3xl   top-8 right-0 -z-10'>
       <div className='flex flex-col  '>
 
-        <a href='#about' onClick={closeDropdown} className='border-b-2 border-yellow-500'>About</a>
+        <a href='#about'  className='border-b-2 border-yellow-500'>About</a>
         <a href='#skills' className='border-b-2 mt-2 border-yellow-500'>Skills</a>
         <a href='#projects' className='border-b-2 mt-2 border-yellow-500'>Project</a>
         <a href='#contact' className='border-b-2 mt-2 border-yellow-500'>Contact</a>

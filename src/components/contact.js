@@ -88,7 +88,7 @@ export const Contact = () => {
           
           
         </form>
-        <h1 className=" md:text-6xl -mb-[0.45rem] md:font-extrabold text-3xl text-[#1C1C27] font-extrabold md:-mb-[0.6rem]">
+        <h1 className=" md:text-6xl lg:text-7xl xl:text-[90px]  -mb-[0.45rem] md:font-extrabold text-3xl text-[#1C1C27] font-extrabold md:-mb-[0.6rem] lg:-mb-[0.8rem] xl:-mb-[1rem]">
           Nihar Chandra Sharma
         </h1>
         </div>
