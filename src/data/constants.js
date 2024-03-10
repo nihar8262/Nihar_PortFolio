@@ -5,6 +5,7 @@ import image4 from "../Image/NetChillin1.png"
 import image5 from "../Image/Food App1.png"
 import image6 from "../Image/vercel-icon.png"
 import image7 from "../Image/git-icon.png"
+import image8 from "../Image/Web-Summarizer.png"
 
 export const Bio = {
     name: "Nihar Chandra Sharma",
@@ -267,7 +268,23 @@ export const Bio = {
   
   export const projects = [
     {
-      id: 9,
+      id: 1,
+      title: "AI Web Summarizer",
+      date: "March 2023 - March 2023",
+      description:
+        "This website is a AI summarizer app in which you can paste the link of a website which you want to summarize for you.It uses Rapid API to summarize a website.React Redux is also used to show the data by storing it locally.",
+      image:image8,
+      tags: [
+        "React JS ",
+        "Tailwind",
+        "Redux",
+      ],
+      category: "web",
+      github: "https://github.com/nihar8262/AI-WebSummarizer",
+      webapp: "https://ai-web-summarizer-ten.vercel.app/",
+    },
+    {
+      id: 2,
       title: "Github Detective",
       date: "Jun 2023 - June 2023",
       description:
@@ -283,7 +300,7 @@ export const Bio = {
       webapp: "https://github-profile-detective.netlify.app/",
     },
     {
-      id: 0,
+      id: 3,
       title: "Password Generator",
       date: "Apr 2023 - May 2023",
       description:
@@ -298,7 +315,7 @@ export const Bio = {
       
     },
     {
-      id: 1,
+      id: 4,
       title: "Weather App",
       date: "May 2023 - May 2023",
       description:
@@ -316,7 +333,7 @@ export const Bio = {
    
    
     {
-      id: 10,
+      id: 5,
       title: "Net Chillin",
       date: "Oct 2023 - Present",
       description:
@@ -331,7 +348,7 @@ export const Bio = {
     
     
     {
-      id: 7,
+      id: 6,
       title: "Foodiee",
       date: "Nov 2023 - Present",
       description:
