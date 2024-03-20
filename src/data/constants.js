@@ -281,7 +281,7 @@ export const Bio = {
       ],
       category: "web",
       github: "https://github.com/nihar8262/AI-WebSummarizer",
-      webapp: "https://ai-web-summarizer-ten.vercel.app/",
+      webapp: "https://ai-web-summarizer-delta.vercel.app/",
     },
     {
       id: 2,
