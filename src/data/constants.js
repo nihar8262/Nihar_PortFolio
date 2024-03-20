@@ -280,7 +280,7 @@ export const Bio = {
         "Redux",
       ],
       category: "web",
-      github: "https://github.com/nihar8262/AI-WebSummarizer",
+      github: "https://github.com/nihar8262/AI_Summarizer",
       webapp: "https://ai-web-summarizer-delta.vercel.app/",
     },
     {
