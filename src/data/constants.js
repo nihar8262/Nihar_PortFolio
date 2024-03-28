@@ -352,7 +352,7 @@ export const Bio = {
       title: "Foodiee",
       date: "Nov 2023 - Present",
       description:
-        "A food delivering Anroid App,which has different restaurant to order food.Redux is used to add item to your cart.And map is given to see where the restaurant is and how much it will take to deliver it.",
+        "A food-delivering Android app that has different restaurants to order food. Redux is used to add items to your cart. And a map is also given to see where the restaurant is and how much it will take to deliver it.",
       image:image5,
       tags: ["React Native","JavaScript",  "Firebase", "Graph QL","Sanity"],
       category: "android app",
