@@ -64,7 +64,7 @@ export const Project = () => {
       
         {/* <Projectcard/> */}
         
-        <div className='flex flex-wrap gap-10 items-center justify-center   mt-10  lg:w-[60rem] md:w-[55rem] xl:w-[75rem] '>
+        <div className='flex flex-wrap gap-10 items-center justify-center   mt-10  lg:w-[60rem] md:w-[45rem] xl:w-[75rem] '>
           {
             
             filtered.map((project)=><Projectcard project={project} />)

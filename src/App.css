@@ -12,32 +12,38 @@ html{
   scroll-behavior: smooth;
 }
 
+
 body{
   margin: 0px !important;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
 
-/* width */
+@keyframes scroll {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}
+
 ::-webkit-scrollbar {
-    width: 4px;
-    height: 80px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background:#222A35;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #575C66;
-    border-radius: 6px;
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #626970;
-  }
+  width: 4px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000; /* Color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #727272; /* Color of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #727272; /* Color of the scrollbar handle on hover */
+}
+
+
 
  

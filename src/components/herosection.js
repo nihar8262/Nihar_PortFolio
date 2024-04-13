@@ -13,7 +13,7 @@ export const Herosection = ({isDropdown,closeModal}) => {
         <div className=" md:w-full h-full flex justify-center  ">
           <img
             src={image} alt=""
-            className=" w-[20rem]  rounded-full relative  border-2 border-[#854CE6] hover:shadow-xl hover:shadow-indigo-500/25 mt-8"
+            className=" w-[20rem] md:w-[15rem] rounded-full relative  border-2 border-[#854CE6] hover:shadow-xl hover:shadow-indigo-500/25 mt-8"
           />
         </div>
         {/* hero header */}
@@ -25,7 +25,7 @@ export const Herosection = ({isDropdown,closeModal}) => {
           </p>
           <div className="font-bold w-[full] justify-center text-xs sm:text-xl md:text-2xl flex gap-2 items-center text-white mb-4 md:text-start md:justify-start">
           I am a
-            <span className="role  md:text-3xl font-bold text-[#854CE6]">
+            <span className="role  md:text-2xl font-bold text-[#854CE6]">
               <Typewriter
                 options={{
                   strings: Bio.roles,
