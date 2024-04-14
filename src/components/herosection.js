@@ -13,7 +13,7 @@ export const Herosection = ({isDropdown,closeModal}) => {
         <div className=" md:w-full h-full flex justify-center  ">
           <img
             src={image} alt=""
-            className=" w-[20rem] md:w-[15rem] rounded-full relative  border-2 border-[#854CE6] hover:shadow-xl hover:shadow-indigo-500/25 mt-8"
+            className=" w-[20rem] md:w-[20rem] rounded-full relative  border-2 border-[#854CE6] hover:shadow-xl hover:shadow-indigo-500/25 mt-8"
           />
         </div>
         {/* hero header */}
