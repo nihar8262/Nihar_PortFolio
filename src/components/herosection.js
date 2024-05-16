@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../Image/Nihar.png";
+import image from "../Image/portrait.jpg";
 import { Bio } from "../data/constants";
 import Typewriter from "typewriter-effect";
 // import {HeroBgAnimation} from "../components/HeroBgAnimation/index"
