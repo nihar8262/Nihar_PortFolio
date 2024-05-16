@@ -6,6 +6,7 @@ import image5 from "../Image/Food App1.png"
 import image6 from "../Image/vercel-icon.png"
 import image7 from "../Image/git-icon.png"
 import image8 from "../Image/Web-Summarizer.png"
+import image9 from "../Image/fact.png"
 
 export const Bio = {
     name: "Nihar Chandra Sharma",
@@ -267,6 +268,21 @@ export const Bio = {
   
   
   export const projects = [
+    {
+      id: 0,
+      title: "FACTS",
+      date: "Dec 2023 - March 2024",
+      description:
+        "Discover the heartbeat of campus life with our college club website! Explore a variety of student organizations, each led by passionate coordinators. Stay in the loop with event listings and dive into the excitement with our event photo gallery. Join us and be part of the vibrant college club community!",
+      image:image9,
+      tags: [
+        "React JS ",
+        "Tailwind",
+      ],
+      category: "web",
+      github: "https://github.com/nihar8262/FACTS-N",
+      webapp: "https://facts-nce.vercel.app/",
+    },
     {
       id: 1,
       title: "AI Web Summarizer",
