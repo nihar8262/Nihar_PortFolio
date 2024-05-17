@@ -272,6 +272,7 @@ export const Bio = {
       id: 0,
       title: "FACTS",
       date: "Dec 2023 - March 2024",
+      bg:"from-purple-600 via-purple-500 to-black",
       description:
         "Discover the heartbeat of campus life with our college club website! Explore a variety of student organizations, each led by passionate coordinators. Stay in the loop with event listings and dive into the excitement with our event photo gallery. Join us and be part of the vibrant college club community!",
       image:image9,
@@ -287,6 +288,7 @@ export const Bio = {
       id: 1,
       title: "AI Web Summarizer",
       date: "March 2023 - March 2023",
+      bg:"from-purple-600 via-purple-500 to-black",
       description:
         "This website is a AI summarizer app in which you can paste the link of a website which you want to summarize for you.It uses Rapid API to summarize a website.React Redux is also used to show the data by storing it locally.",
       image:image8,
@@ -303,6 +305,7 @@ export const Bio = {
       id: 2,
       title: "Github Detective",
       date: "Jun 2023 - June 2023",
+      bg:"from-purple-600 via-purple-500 to-black",
       description:
         "This website shows the profile of Github users by entering the username user want to search.",
       image:image3,
@@ -319,6 +322,7 @@ export const Bio = {
       id: 3,
       title: "Password Generator",
       date: "Apr 2023 - May 2023",
+      bg:"from-purple-600 via-purple-500 to-black",
       description:
         "A webpage where we can genrate random password, we can select length of the password as per our need.",
       image:image1,
@@ -334,6 +338,7 @@ export const Bio = {
       id: 4,
       title: "Weather App",
       date: "May 2023 - May 2023",
+      bg:"from-purple-600 via-purple-500 to-black",
       description:
         "Search the weather conditions of any city using city name,Weather info is fetched using OpenWeather Api.",
       image:image2,
@@ -352,6 +357,7 @@ export const Bio = {
       id: 5,
       title: "Net Chillin",
       date: "Oct 2023 - Present",
+      bg:"from-purple-600 via-purple-500 to-black",
       description:
         "A movie and its cast description app where any one can know about their favourite movies and movie actors.Search bar is also given to search and get information about your favourite movies. All the movies and the cast deatils are feteched using TDMB api.",
       image:image4,
@@ -367,6 +373,7 @@ export const Bio = {
       id: 6,
       title: "Foodiee",
       date: "Nov 2023 - Present",
+      bg:"from-purple-600 via-purple-500 to-black",
       description:
         "A food-delivering Android app that has different restaurants to order food. Redux is used to add items to your cart. And a map is also given to see where the restaurant is and how much it will take to deliver it.",
       image:image5,

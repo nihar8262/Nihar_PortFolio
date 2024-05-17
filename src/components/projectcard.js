@@ -1,7 +1,6 @@
 
 import React from 'react'
 import { FaGithub,FaLink } from 'react-icons/fa'
-// import { projects } from '../data/constants'
 
 
 export const Projectcard = ({project}) => {
@@ -10,16 +9,15 @@ export const Projectcard = ({project}) => {
     <div
     >
         <div 
-         className=' '>
+         className='hover:transform hover:transition hover:duration-500 '>
             {
              
                     <div
-                    
-                    className='bg-slate-900 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 '>
+                    className='bg-slate-900 hover:bg-gradient-to-t from-black via-blue-800/30 to-sky-600/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 '>
                         <img src={project?.image} alt="" className=' rounded-md mb-4 h-48 md:h-40 lg:h-48 xl:h-52'/>
-                        <div className='flex flex-wrap gap-2 w-[18rem] text-[#854CE6] '>
+                        <div className='flex flex-wrap gap-2 w-[18rem] text-[#a277ec] '>
                      {  project.tags.map((tag)=>(
-                            <h1 className='bg-purple-600/20 rounded-3xl p-1'>{tag}</h1>
+                            <h1 className='bg-purple-600/20 rounded-3xl p-2'>{tag}</h1>
                        ))}
                         </div>
                         <h1 className='mt-2 mb-2 text-3xl text-slate-300'>{project.title}</h1>

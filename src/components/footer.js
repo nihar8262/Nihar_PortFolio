@@ -37,22 +37,22 @@ export const Footer = () => {
         
       </div>
       <div className="flex mb-32 gap-10">
-        <div className="transform transiltion duration-500 hover:scale-125 cursor-pointer border p-4 rounded-full">
+        <div className="hover:bg-blue-800  transform transition duration-500 hover:scale-125 cursor-pointer border p-4 rounded-full">
           <a href={Bio.linkedin} target="_blank">
             <FaLinkedin size={25} color="white" />
           </a>
         </div>
-        <div className="transform transiltion duration-500 hover:scale-125 cursor-pointer border p-4 rounded-full">
+        <div className="hover:bg-gradient-to-t from-orange-600 via-red-600 to-pink-700 transform transition duration-500 hover:scale-125 cursor-pointer border p-4 rounded-full">
           <a href={Bio.insta} target="_blank ">
             <FaInstagram size={25} color="white" />
           </a>
         </div>
-        <div className="transform transiltion duration-500 hover:scale-125 cursor-pointer border p-4 rounded-full">
+        <div className="hover:bg-blue-800 transform transition duration-500 hover:scale-125 cursor-pointer border p-4 rounded-full">
           <a href={Bio.facebook} target="_blank">
             <FaFacebook size={25} color="white" />
           </a>
         </div>
-        <div className="transform transiltion duration-500 hover:scale-125 cursor-pointer border p-4 rounded-full">
+        <div className="hover:bg-black transform transition duration-500 hover:scale-125 cursor-pointer border p-4 rounded-full">
           <a href={Bio.twitter} target="_blank">
             <FaTwitter size={25} color="white" />
           </a>
