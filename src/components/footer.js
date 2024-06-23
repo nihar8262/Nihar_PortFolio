@@ -1,11 +1,9 @@
 import React, { useState } from "react";
 import { Bio } from "../data/constants";
 import image from "../Image/astro1.png";
-import image3 from "../Image/planet.png";
-import image4 from "../Image/planet1.png";
 
 import { FaLinkedin, FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
-import { Mobilenav } from "./mobilenav";
+
 import { Message } from "./message";
 
 export const Footer = () => {
@@ -14,12 +12,12 @@ export const Footer = () => {
     <div 
     className="relative flex  flex-col justify-center items-center mt-40 ">
       {/* images */}
-      <div className="hidden absolute z-10 top-0 left-20 md:block transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:translate-y-5">
+      {/* <div className="hidden absolute z-10 top-0 left-20 md:block transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:translate-y-5">
         <img src={image4} alt="" className="w-24" />
       </div>
       <div className="hidden absolute z-10 top-0 right-20 md:block transfom transition duration-500 hover:scale-125 hover:-translate-x-10 hover:translate-y-5">
         <img src={image3} alt="" className="w-28" />
-      </div>
+      </div> */}
       
 
       <div className=" absolute -top-40 z-0   transfom transition duration-500 hover:scale-125  hover:-translate-y-10">

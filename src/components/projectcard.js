@@ -26,13 +26,13 @@ export const Projectcard = ({project}) => {
                             {project.description}
                         </p>
                         <div className='flex gap-10 mt-5'>
-                        <div className='transform transiltion duration-500 hover:scale-150 cursor-pointer'>
+                        <div className='transform transition duration-500 hover:scale-150 cursor-pointer'>
                         <a href={project.github} target='_blank'><FaGithub size={35} 
                           onMouseOut={({target})=>target.style.color="white"}
                           onMouseOver={({target})=>target.style.color="#854CE6"}
                         /></a>
                         </div>
-                        <div className='transform transiltion duration-500 hover:scale-150 cursor-pointer'>
+                        <div className='transform transition duration-500 hover:scale-150 cursor-pointer'>
                         <a href={project.webapp} target='_blank'><FaLink size={30}
                           onMouseOut={({target})=>target.style.color="white"}
                           onMouseOver={({target})=>target.style.color="#854CE6"}

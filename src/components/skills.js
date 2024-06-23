@@ -1,8 +1,5 @@
 import React, {  useState } from "react";
 import image1 from "../Image/astro2.png"
-import image3 from "../Image/planet.png"
-import image4 from "../Image/planet1.png"
-import image6 from "../Image/satellite.png"
 import { Message } from "./message";
 import { SkillsCard } from "./skillsCard";
 
@@ -25,15 +22,15 @@ export const Skills = () => {
         </div>
         {/* Skills container */}
        <div className=" justify-center">
-       <div className="hidden md:block absolute bottom-96 left-0 md:left-28 transfom transition duration-500 hover:scale-125 animate-spin">
+       {/* <div className="hidden md:block absolute bottom-96 left-0 md:left-28 transfom transition duration-500 hover:scale-125 animate-spin">
             <img src={image4} alt="" className="w-24"/>
         </div>
         
         <div className=" absolute hidden md:block top-16 right-44 md:right-28 transfom transition duration-500 hover:scale-125  hover:translate-y-10   ">
             <img src={image3} alt="" className="w-24"/>
-        </div>
+        </div> */}
         
-        <div className=" absolute top-48 left-auto md:left-auto transfom transition duration-500 hover:scale-125  hover:-translate-y-10 animate-bounce">
+        <div className=" absolute top-56 left-auto md:left-auto transfom transition duration-500 hover:scale-125  hover:-translate-y-10 animate-bounce">
             <button onClick={()=> setNav(!nav)}>
             {
                 nav ? <Message/> :null
@@ -42,9 +39,9 @@ export const Skills = () => {
             </button>
         </div>
         
-        <div className="hidden md:block absolute bottom-0 right-20 md:right-20 md:bottom-0 transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:translate-y-5">
+        {/* <div className="hidden md:block absolute bottom-0 right-20 md:right-20 md:bottom-0 transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:translate-y-5">
             <img src={image6} alt="" className="w-24"/>
-        </div>
+        </div> */}
         
 
        <div>

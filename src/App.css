@@ -13,11 +13,11 @@ html{
 }
 
 
-body{
+/* body{
   margin: 0px !important;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
-}
+} */
 
 @keyframes scroll {
   to {
