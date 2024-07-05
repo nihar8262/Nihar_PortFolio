@@ -30,7 +30,7 @@ export const Skills = () => {
             <img src={image3} alt="" className="w-24"/>
         </div> */}
         
-        <div className=" absolute top-56 left-auto md:left-auto transfom transition duration-500 hover:scale-125  hover:-translate-y-10 animate-bounce">
+        <div className=" absolute top-52 left-auto md:left-auto transfom transition duration-500 hover:scale-125  hover:-translate-y-10 animate-bounce">
             <button onClick={()=> setNav(!nav)}>
             {
                 nav ? <Message/> :null

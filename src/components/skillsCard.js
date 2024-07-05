@@ -18,7 +18,7 @@ export const SkillsCard = () => {
       opacity:opacityProgress,
     }}
     
-    className="w-[20rem] md:grid md:grid-cols-2  md:gap-10  mt-10  md:w-[35rem]  ">
+    className="w-[20rem] md:grid md:grid-cols-2  md:gap-10  mt-10  md:w-[36rem] lg:w-[50rem]  ">
             {
                 skills.map((skill) =>(
                     <div className="border-2 border-[#854CE6] shadow-lg shadow-indigo-500/25  mt-5 p-5 rounded-lg mb-10 ">
