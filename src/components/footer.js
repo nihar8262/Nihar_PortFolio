@@ -11,14 +11,6 @@ export const Footer = () => {
   return (
     <div 
     className="relative flex  flex-col justify-center items-center mt-40 ">
-      {/* images */}
-      {/* <div className="hidden absolute z-10 top-0 left-20 md:block transfom transition duration-500 hover:scale-125 hover:translate-x-10 hover:translate-y-5">
-        <img src={image4} alt="" className="w-24" />
-      </div>
-      <div className="hidden absolute z-10 top-0 right-20 md:block transfom transition duration-500 hover:scale-125 hover:-translate-x-10 hover:translate-y-5">
-        <img src={image3} alt="" className="w-28" />
-      </div> */}
-      
 
       <div className=" absolute -top-40 z-0   transfom transition duration-500 hover:scale-125  hover:-translate-y-10">
         <button onClick={()=> setNav(!nav)}>

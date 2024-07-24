@@ -1,4 +1,4 @@
-"use client";
+
 import React, { useRef } from 'react'
 import { skills } from "../data/constants";
 import {motion,useScroll, useTransform} from "framer-motion"
