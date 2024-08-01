@@ -8,6 +8,10 @@ import { Herosection } from './components/herosection';
 import { Project } from './components/projects';
 import { Contact } from './components/contact';
 import { Footer } from './components/footer';
+import { SpeedInsights } from '@vercel/speed-insights/react';
+import { inject } from '@vercel/analytics';
+ 
+
 
 
 
@@ -47,10 +51,13 @@ function App() {
               <Contact/>
             </Wrapper>
             <Footer/>
+            <SpeedInsights/>
         </Body>
       
     </ThemeProvider>
   );
 }
+
+inject();
 
 export default App;
