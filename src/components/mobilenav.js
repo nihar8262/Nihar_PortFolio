@@ -13,6 +13,7 @@ export const Mobilenav = () => {
       <div className='flex flex-col  '>
 
         <a href='#about'  className='border-b-2 border-yellow-500'>About</a>
+        <a href='#exp' className='border-b-2 mt-2 border-yellow-500'>Experiences</a>
         <a href='#skills' className='border-b-2 mt-2 border-yellow-500'>Skills</a>
         <a href='#projects' className='border-b-2 mt-2 border-yellow-500'>Project</a>
         <a href='#contact' className='border-b-2 mt-2 border-yellow-500'>Contact</a>

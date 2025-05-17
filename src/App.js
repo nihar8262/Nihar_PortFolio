@@ -10,6 +10,7 @@ import { Contact } from './components/contact';
 import { Footer } from './components/footer';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import { inject } from '@vercel/analytics';
+import { Experience } from './components/experience';
  
 
 
@@ -46,6 +47,7 @@ function App() {
         <Body>
           <Herosection  />
             <Wrapper>
+              <Experience/>
               <Skills />
               <Project/>
               <Contact/>

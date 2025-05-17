@@ -39,7 +39,7 @@ export const Navbar = () => {
           style={{
             transitionDelay:500
           }}
-          className=" block   right-5  mt-[0.75rem]  ml-0   transform duration-200 text-2xl cursor-pointer text-[#F2F3F4] sm:hidden">
+          className=" block   right-5  mt-[0.75rem]  ml-0   transform duration-200 text-2xl cursor-pointer text-[#F2F3F4] md:hidden">
             <button onClick={()=> setNav(!nav)}>
             {
                 nav ? <FaTimes/> :<FaBars/>
@@ -51,12 +51,18 @@ export const Navbar = () => {
             
         </motion.div>
         {/* Nav content */}
-        <div className="text-white hidden sm:gap-4 md:gap-7 border p-1 rounded-3xl bg-black/50 backdrop-blur-lg   sm:flex">
+        <div className="text-white hidden sm:gap-4 md:gap-7 border p-1 rounded-3xl bg-black/50 backdrop-blur-lg   md:flex">
           <a
             href="#about"
             className="pointer-cursor hover:bg-white/35 hover:backdrop-blur-sm hover:text-yellow-500 rounded-3xl p-2 "
           >
             About
+          </a>
+          <a
+            href="#exp"
+            className="pointer-cursor hover:bg-white/35 hover:backdrop-blur-lg hover:text-yellow-500 rounded-3xl p-2 "
+          >
+            Experiences
           </a>
           <a
             href="#skills"
@@ -79,7 +85,7 @@ export const Navbar = () => {
           </a>
         </div>
         {/* Button */}
-        <div className=" hidden sm:block">
+        <div className=" hidden md:block">
           <a
             href={Bio.github} target="_blank"
             class="relative inline-flex items-center justify-center p-3 px-5 py-2 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group"

@@ -20,6 +20,8 @@ export const Bio = {
     github: "https://github.com/nihar8262",
     resume:
       "https://drive.google.com/file/d/1gfudUdYEudbixy0sonbuC1IEAScazhGu/view?usp=sharing",
+    leetcode:"https://leetcode.com/u/niharnics/",
+    codeforces:"https://codeforces.com/profile/niharnics",
     linkedin: "https://www.linkedin.com/in/nihar-chandra-sharma-5559a720a/",
     twitter: "https://twitter.com/NiharChandra9",
     insta: "https://www.instagram.com/niharchandra007?igsh=Znpnc29oa2FvZHZx",
@@ -79,18 +81,19 @@ export const Bio = {
           name: "Node Js",
           image: "https://nodejs.org/static/images/logo.svg",
         },
-        
+        {
+          name: "Python",
+          image: "https://www.citypng.com/public/uploads/preview/hd-python-logo-symbol-transparent-png-735811696257415dbkifcuokn.png",
+        },
         {
           name: "Graph Ql",
           image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
         },
-        
         {
           name: "MySQL",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
         },
-        
         {
           name: "Firebase",
           image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
@@ -153,11 +156,11 @@ export const Bio = {
           image:image6,
         },
         
-        // {
-        //   name: "Figma",
-        //   image:
-        //     "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
-        // },
+        {
+          name: "Figma",
+          image:
+            "https://banner2.cleanpng.com/20180427/zce/avew5230c.webp",
+        },
       ],
     },
   ];
@@ -165,11 +168,18 @@ export const Bio = {
   export const experiences = [
     {
       id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-      role: "DevOps & Fullstack Engineering Intern",
-      company: "Flipr Inovations Pvt. Ltd.",
-      date: "Aug 2023 - July 2023",
-      desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+      img: "https://images.seeklogo.com/logo-png/3/1/cisco-logo-png_seeklogo-30674.png",
+      role: "Software Engineer Trainee",
+      company: "CISCO Systems Pvt. Ltd.",
+      location:"Bengaluru, Karnataka",
+      date: "April 2025 - Present",
+      desc: [
+        "Working on CISCO Platforms, managing DevOps, and streamlining the process with automation.",
+        "Developing and maintaining CI/CD pipelines to ensure efficient software delivery.",
+        "Collaborating with cross-functional teams to enhance system performance and reliability.",
+        
+      ],
+      bg:"bg-gradient-to-tr from-black via-black to-neutral-700   shadow-sm shadow-slate-300  max-h-full p-6 w-[50vw]  rounded-lg  text-white transform transition duration-500   ",
       skills: [
         "Docker",
         "Terraform",
@@ -185,12 +195,21 @@ export const Bio = {
       doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
     {
-      id: 0,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-      role: "Frontend Engineer Intern",
-      company: "Neurobit",
-      date: "June 2023 - Present",
-      desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+      id: 1,
+      img: "https://media.licdn.com/dms/image/v2/D4D0BAQErFG-TTpnASA/company-logo_200_200/company-logo_200_200/0/1718619647241/bevarc_ecommerce_construction_logo?e=2147483647&v=beta&t=0WNdhegYJyMKClkBIKCETfDwOwq0i6WyNHMgf16FKYk",
+      role: "SDE Intern",
+      company: "BEVARC Construction Pvt. Ltd.",
+      location:"Patna, Bihar",
+      date: "June 2024 - Aug 2024",
+      bg:"bg-gradient-to-tr from-black via-black to-neutral-700   shadow-sm shadow-slate-300 max-h-full p-6 w-[50vw]  rounded-lg text-white  transform transition duration-500",
+      desc: [
+         "Created a complete website from scratch, covering the entire process from designing the user interface (UI) to implementing the front end.",
+         "Implemented React JS and Tailwind CSS to ensure a responsive and user-friendly experience across various devices,enhancing accessibility and usability by 25%.",
+         "Integrated data seamlessly by fetching from APIs, resulting in an interactive web application with a 40% increase in user engagement.",
+         "Collaborated with the backend team to ensure smooth data flow and functionality, contributing to a 30% reduction in development time.",
+         "Utilized Git for version control, enabling efficient collaboration and code management within the team.",
+         "Optimized website performance, decreasing load times by 20% through code splitting and lazy loading"
+      ],
       skills: [
         "ReactJS",
         "Redux",
@@ -201,69 +220,6 @@ export const Bio = {
         "JavaScript",
       ],
       doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
-    },
-    {
-      id: 1,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-      role: "Fullstack Externship",
-      company: "Flipr",
-      date: "June 2023 - July 2023",
-      desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-      skills: [
-        "ReactJS",
-        "Redux",
-        "NodeJs",
-        "Material UI",
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "Docker",
-        "AWS",
-        "MongoDB",
-      ],
-    },
-    {
-      id: 2,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-      role: "Open Source Contributor ",
-      company: "GirlScript Summer of Code",
-      date: "May 2023 - Present",
-      desc: "Contributing to different open-source projects and learn from industry experts",
-      doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
-    },
-    {
-      id: 3,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-      role: "Android Developer",
-      company: "DSC KIIT",
-      date: "Nov2021 - Present",
-      desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-      skills: [
-        "Leadership",
-        "Mobile Application Development",
-        "Kotlin",
-        "XML",
-        "Figma",
-      ],
-    },
-    {
-      id: 4,
-      img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-      role: "Android Developer Intern",
-      company: "Rudraksha Welffare Foundation",
-      date: "June 2021 - Oct 2021",
-      desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
-      skills: [
-        "Android",
-        "Java",
-        "Kotlin",
-        "XML",
-        "Node Js",
-        "Cloud Firestore",
-        "Firebase",
-        "Figma",
-      ],
-      doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
     },
   ];
   
@@ -288,20 +244,16 @@ export const Bio = {
     },
     {
       id: 1,
-      title: "AI Web Summarizer",
-      date: "March 2023 - March 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/50 to-orange-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      title: "Foodiee",
+      date: "Nov 2023 - Present",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/70 to-orange-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
-        "This website is a AI summarizer app in which you can paste the link of a website which you want to summarize for you.It uses Rapid API to summarize a website.React Redux is also used to show the data by storing it locally.",
-      image:image8,
-      tags: [
-        "React JS ",
-        "Tailwind",
-        "Redux",
-      ],
-      category: "web",
-      github: "https://github.com/nihar8262/AI_Summarizer",
-      webapp: "https://ai-web-summarizer-delta.vercel.app/",
+        "A food-delivering Android app that has different restaurants to order food. Redux is used to add items to your cart. And a map is also given to see where the restaurant is and how much it will take to deliver it.",
+      image:image5,
+      tags: ["React Native","JavaScript",  "Firebase", "Graph QL","Sanity"],
+      category: "android app",
+      github: "https://github.com/nihar8262/food-app",
+      webapp: "https://github.com/nihar8262/food-app",
     },
     {
       id: 2,
@@ -368,23 +320,21 @@ export const Bio = {
       github: "https://github.com/nihar8262/NetChillin",
       webapp: "https://github.com/nihar8262/NetChillin",
     },
-    
-    
-    
     {
       id: 6,
-      title: "Foodiee",
-      date: "Nov 2023 - Present",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/70 to-orange-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      title: "AI Web Summarizer",
+      date: "March 2023 - March 2023",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/50 to-orange-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
-        "A food-delivering Android app that has different restaurants to order food. Redux is used to add items to your cart. And a map is also given to see where the restaurant is and how much it will take to deliver it.",
-      image:image5,
-      tags: ["React Native","JavaScript",  "Firebase", "Graph QL","Sanity"],
-      category: "android app",
-      github: "https://github.com/nihar8262/food-app",
-      webapp: "https://github.com/nihar8262/food-app",
+        "This website is a AI summarizer app in which you can paste the link of a website which you want to summarize for you.It uses Rapid API to summarize a website.React Redux is also used to show the data by storing it locally.",
+      image:image8,
+      tags: [
+        "React JS ",
+        "Tailwind",
+        "Redux",
+      ],
+      category: "web",
+      github: "https://github.com/nihar8262/AI_Summarizer",
+      webapp: "https://ai-web-summarizer-delta.vercel.app/",
     },
-    
   ];
-  
-  

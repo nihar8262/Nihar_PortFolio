@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import { Projectcard } from './projectcard'
 import image from "../Image/astro1.png"
-import { Message } from './message'
 import { projects } from '../data/constants'
+import { Message1 } from './message1'
 
 
 export const Project = () => {
@@ -51,7 +51,7 @@ export const Project = () => {
       <div className=" absolute top-[13.5rem] left-1 sm:left:24 md:top-52 md:left-96  transfom transition duration-500 hover:scale-125  hover:-translate-y-10">
       <button onClick={()=> setNav(!nav)}>
             {
-                nav ? <Message/> :null
+                nav ? <Message1/> :null
             }
             <img src={image} alt="" className="w-24"/>
             </button>
