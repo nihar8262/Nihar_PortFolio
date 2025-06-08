@@ -7,6 +7,7 @@ import image6 from "../Image/vercel-icon.png"
 import image7 from "../Image/git-icon.png"
 import image8 from "../Image/Web-Summarizer.png"
 import image9 from "../Image/fact.png"
+import image10 from "../Image/LineUp.png"
 
 export const Bio = {
     name: "Nihar Chandra Sharma",
@@ -287,6 +288,24 @@ export const Bio = {
       github: "https://github.com/nihar8262/Password-Generator",
       webapp: "https://password-provider007.netlify.app/",
       
+    },
+    {
+      id: 7,
+      title: "Todo App",
+      date: "May 2023 - May 2023",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-amber-700/50 to-amber-500 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      description:
+        "A simple and intuitive task management app built to help users organize their daily activities efficiently. Users can add, edit, delete, and mark tasks as completed in a clean, minimal UI. The app is fully responsive and uses local storage to retain tasks across sessions. It’s a great example of my skills in frontend development and clean UI design.",
+      image:image10,
+      tags: [
+        "React JS ",
+        "Tailwind",
+        "CSS",
+        "JavaScript",
+      ],
+      category: "web",
+      github: "https://github.com/nihar8262/LineUp",
+      webapp: "https://line-up-psi.vercel.app/",
     },
     {
       id: 4,

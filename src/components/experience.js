@@ -10,7 +10,7 @@ export const Experience = () => {
       <div className="text-white text-center mt-10  w-[30rem] md:w-[40rem]">
         <h1 className="font-bold text-3xl mb-10 border-b-2 border-b-yellow-500 py-2">Experiences</h1>
         <p className="">
-        Here are some of my experiences in the field of web development and design.
+        Here are some of my experiences in the IT field .
         </p>
       </div>
 
