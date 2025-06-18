@@ -8,6 +8,7 @@ import image7 from "../Image/git-icon.png"
 import image8 from "../Image/Web-Summarizer.png"
 import image9 from "../Image/fact.png"
 import image10 from "../Image/LineUp.png"
+import image11 from "../Image/Secure-valut.png"
 
 export const Bio = {
     name: "Nihar Chandra Sharma",
@@ -20,7 +21,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/nihar8262",
     resume:
-      "https://drive.google.com/file/d/1gfudUdYEudbixy0sonbuC1IEAScazhGu/view?usp=sharing",
+      "https://drive.google.com/file/d/1LMChQRxECWY4LCIVb_8zFe5NqbQXGz4A/view?usp=sharing",
     leetcode:"https://leetcode.com/u/niharnics/",
     codeforces:"https://codeforces.com/profile/niharnics",
     linkedin: "https://www.linkedin.com/in/nihar-chandra-sharma-5559a720a/",
@@ -175,10 +176,11 @@ export const Bio = {
       location:"Bengaluru, Karnataka",
       date: "April 2025 - Present",
       desc: [
-        "Working on CISCO Platforms, managing DevOps, and streamlining the process with automation.",
-        "Developing and maintaining CI/CD pipelines to ensure efficient software delivery.",
+        "Undergone intensive training in Python programming, covering OOPs, file handling,and problem-solving techniques.",
+        "Completed training on CCNA(Cisco Certified Network Associate) concepts including IPaddressing,subnetting etc",
         "Collaborating with cross-functional teams to enhance system performance and reliability.",
-        
+        "Currently undergoing Java Full Stack Development training,covering HTML, CSS, JavaScript, React.js, Core Java,Spring Boot, RESTful APIs and MySQL",
+        "Gaining exposure to Agile development methodologies, version control (Git/GitHub)"
       ],
       bg:"bg-gradient-to-tr from-black via-black to-neutral-700   shadow-sm shadow-slate-300  max-h-full p-6 w-[50vw]  rounded-lg  text-white transform transition duration-500   ",
       skills: [
@@ -255,6 +257,25 @@ export const Bio = {
       category: "android app",
       github: "https://github.com/nihar8262/food-app",
       webapp: "https://github.com/nihar8262/food-app",
+    },
+    {
+      id: 8,
+      title: "Secure Vault",
+      date: "Jun 2025 - June 2025",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-600/50 to-purple-900/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      description:
+        "Password Manager App is a secure and user-friendly tool that helps users store and manage their login credentials. It allows users to save website URLs, usernames, and passwords in an organized way. Users can easily edit, delete, or copy any saved entry, making it convenient to manage multiple accounts from one place.",
+      image:image11,
+      tags: [
+        "React JS ",
+        "Tailwind",
+        "Node JS",
+        "Express JS",
+        "MongoDB",
+      ],
+      category: "web",
+      github: "https://github.com/nihar8262/Secure-Vault",
+      webapp: "https://secure-vault.vercel.app/",
     },
     {
       id: 2,
