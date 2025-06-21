@@ -235,7 +235,7 @@ export const Bio = {
       date: "Dec 2023 - March 2024",
       bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
-        "Discover the heartbeat of campus life with our college club website! Explore a variety of student organizations, each led by passionate coordinators. Stay in the loop with event listings and dive into the excitement with our event photo gallery. Join us and be part of the vibrant college club community!",
+        "Discover the heartbeat of campus life with our college club website! Explore a variety of student organizations, each led by passionate coordinators. Stay in the loop with event listings and dive into the excitement with our event photo gallery.",
       image:image9,
       tags: [
         "React JS ",
@@ -264,7 +264,7 @@ export const Bio = {
       date: "Jun 2025 - June 2025",
       bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-600/50 to-purple-900/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
-        "Password Manager App is a secure and user-friendly tool that helps users store and manage their login credentials. It allows users to save website URLs, usernames, and passwords in an organized way. Users can easily edit, delete, or copy any saved entry, making it convenient to manage multiple accounts from one place.",
+        "Password Manager App is a user-friendly tool that helps users store and manage their login credentials. It allows users to save website URLs, usernames, and passwords in an organized way. Users can easily edit, delete, or copy any saved entry.",
       image:image11,
       tags: [
         "React JS ",
@@ -316,7 +316,7 @@ export const Bio = {
       date: "May 2023 - May 2023",
       bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-amber-700/50 to-amber-500 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
-        "A simple and intuitive task management app built to help users organize their daily activities efficiently. Users can add, edit, delete, and mark tasks as completed in a clean, minimal UI. The app is fully responsive and uses local storage to retain tasks across sessions. It’s a great example of my skills in frontend development and clean UI design.",
+        "A simple and intuitive task management app built to help users organize their daily activities efficiently. Users can add, edit, delete, and mark tasks as completed in a clean, minimal UI. The app is fully responsive and uses local storage to retain tasks across sessions.",
       image:image10,
       tags: [
         "React JS ",
