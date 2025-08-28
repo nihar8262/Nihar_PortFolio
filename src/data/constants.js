@@ -50,6 +50,10 @@ export const Bio = {
           image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
         },
         {
+          name:"Angular",
+          image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Angular_gradient.png/1200px-Angular_gradient.png"
+        },
+        {
           name: "CSS",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
@@ -70,7 +74,7 @@ export const Bio = {
             "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
         },
         {
-          name: "Tailwind",
+          name: "TailwindCSS",
           image:
             "https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg",
         },
@@ -95,6 +99,10 @@ export const Bio = {
           name: "MySQL",
           image:
             "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        },
+        {
+          name:"Express",
+          image:"https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png"
         },
         {
           name: "Firebase",
@@ -133,6 +141,10 @@ export const Bio = {
     {
       title: "Others",
       skills: [
+        {
+          name:"Docker",
+          image:"https://blog.kakaocdn.net/dna/eAWSDY/btqy7KQaG3o/AAAAAAAAAAAAAAAAAAAAAKNpTC3ORP1e9IKBpgRQIqZgdG0usqb8DwXJTEPiFkU9/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=haz6WbgrHh%2F40wiv2qvkdxpU%2FeM%3D"
+        },
         {
           name: "Git",
           image:image7,
@@ -176,24 +188,48 @@ export const Bio = {
       location:"Bengaluru, Karnataka",
       date: "April 2025 - Present",
       desc: [
-        "Undergone intensive training in Python programming, covering OOPs, file handling,and problem-solving techniques.",
-        "Completed training on CCNA(Cisco Certified Network Associate) concepts including IPaddressing,subnetting etc",
-        "Collaborating with cross-functional teams to enhance system performance and reliability.",
-        "Currently undergoing Java Full Stack Development training,covering HTML, CSS, JavaScript, React.js, Core Java,Spring Boot, RESTful APIs and MySQL",
-        "Gaining exposure to Agile development methodologies, version control (Git/GitHub)"
+        "Led development of enterprise-grade test automation dashboard serving 15+ engineering teams, enabling real-time monitoring and analysis of 500+ automated test suites across multiple CISCO product portfolios",
+        "Spearheaded AI-powered job failure analysis system using using OpenAI API to automatically categorize test failures (ABORTED/FAILED), reducing manual root cause analysis effort by 80% and accelerating product release cycles",
+        "Built containerized deployment pipeline using Docker multi-stage builds and unified frontend-backend architecture, achieving 90% reduction in deployment complexity and enabling seamless CI/CD integration",
+        " Designed responsive data visualization interface with real-time search, filtering, and sorting capabilities across Bundle IDs, Test IDs, and Suite Types, improving test engineer productivity by 60%",
+        "Optimized high-traffic API integrations with CISCO's internal EARMS and SSR systems, implementing intelligent caching and load balancing to handle 1000+ daily test result queries",
+        "Drove data-driven decision making by implementing comprehensive analytics and shareable reporting features, enabling stakeholders to track product quality metrics and testing ROI"
       ],
-      bg:"bg-gradient-to-tr from-black via-black to-neutral-700   shadow-sm shadow-slate-300  max-h-full p-6 w-[50vw]  rounded-lg  text-white transform transition duration-500   ",
+      bg:"bg-gradient-to-tr from-black via-black to-neutral-700   shadow-sm shadow-slate-300  max-h-full p-6 w-[70vw] md:w-[50vw]  rounded-lg  text-white transform transition duration-500   ",
       skills: [
-        "Docker",
-        "Terraform",
-        "AWS",
-        "EC2",
-        "Portainer",
-        "Nginx",
-        "JavaScript",
-        "TypeScript",
-        "Node Js",
-        " Next Js",
+        {
+          name:"Angular 18",
+          image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Angular_gradient.png/1200px-Angular_gradient.png"
+        },
+
+        {
+          name:"TypeScript",
+          image:"https://cdn.iconscout.com/icon/free/png-256/free-typescript-3521774-2945272.png?f=webp"
+        },
+        {
+          name:"Docker",
+          image:"https://blog.kakaocdn.net/dna/eAWSDY/btqy7KQaG3o/AAAAAAAAAAAAAAAAAAAAAKNpTC3ORP1e9IKBpgRQIqZgdG0usqb8DwXJTEPiFkU9/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=haz6WbgrHh%2F40wiv2qvkdxpU%2FeM%3D"
+        },
+        {
+          name:"Node Js",
+          image:"https://nodejs.org/static/images/logo.svg"
+        },
+        {
+          name:"Express",
+          image:"https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png"
+        },
+        {
+          name:"RESTful APIs",
+          image:"https://e7.pngegg.com/pngimages/592/502/png-clipart-logo-application-programming-interface-computer-programming-application-software-api-text-photography-thumbnail.png"
+        },
+        {
+          name:"OpenAI API",
+          image:"https://images.seeklogo.com/logo-png/42/1/open-ai-logo-png_seeklogo-428036.png"
+        },
+        {
+          name:"TailwindCSS",
+          image:"https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg"
+        },
       ],
       doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
     },
@@ -204,7 +240,7 @@ export const Bio = {
       company: "BEVARC Construction Pvt. Ltd.",
       location:"Patna, Bihar",
       date: "June 2024 - Aug 2024",
-      bg:"bg-gradient-to-tr from-black via-black to-neutral-700   shadow-sm shadow-slate-300 max-h-full p-6 w-[50vw]  rounded-lg text-white  transform transition duration-500",
+      bg:"bg-gradient-to-tr from-black via-black to-neutral-700   shadow-sm shadow-slate-300 max-h-full p-6 w-[70vw] md:w-[50vw] rounded-lg text-white  transform transition duration-500",
       desc: [
          "Created a complete website from scratch, covering the entire process from designing the user interface (UI) to implementing the front end.",
          "Implemented React JS and Tailwind CSS to ensure a responsive and user-friendly experience across various devices,enhancing accessibility and usability by 25%.",
@@ -214,13 +250,30 @@ export const Bio = {
          "Optimized website performance, decreasing load times by 20% through code splitting and lazy loading"
       ],
       skills: [
-        "ReactJS",
-        "Redux",
-        "NodeJs",
-        "Material UI",
-        "HTML",
-        "CSS",
-        "JavaScript",
+        {
+          name:"ReactJS",
+          image:"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        },
+        {
+          name:"Redux",
+          image:"https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
+        },
+        {
+          name:"NodeJs",
+          image:"https://nodejs.org/static/images/logo.svg",
+        },
+        {
+          name:"Express",
+          image:"https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png",
+        },
+        {
+          name:"TailwindCSS",
+          image:"https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg",
+        },
+        {
+          name:"TypeScript",
+          image:"https://cdn.iconscout.com/icon/free/png-256/free-typescript-3521774-2945272.png?f=webp",
+        },
       ],
       doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
     },

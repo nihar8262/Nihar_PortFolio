@@ -26,7 +26,7 @@ export const Project = () => {
       setFilter(filter);
       console.log(filter);
   }
-
+ 
 
 
   return (
