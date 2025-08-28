@@ -411,7 +411,7 @@ export const Bio = {
       tags: ["React Native", "JavaScript", "Axios", "Firebase",],
       category: "android app",
       github: "https://github.com/nihar8262/NetChillin",
-      webapp: "https://github.com/nihar8262/NetChillin",
+      webapp: "https://streamify-six-phi.vercel.app/",
     },
     {
       id: 6,
