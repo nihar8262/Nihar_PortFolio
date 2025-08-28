@@ -21,9 +21,9 @@ export const Contact = () => {
         </div>
 
         {/* email */}
-        <div className=" flex flex-col justify-center items-center">
+        <div className=" flex flex-col lg:flex-row justify-center items-center">
             <div className=" ">
-                <img src={image1} alt="" className=""/>
+                <img src={image1} alt="" className="md:w-[50vw]"/>
             </div>
         <form
          action="https://formspree.io/f/xjvnvnyo"
@@ -88,10 +88,10 @@ export const Contact = () => {
           
           
         </form>
+        </div>
         <h1 className=" md:text-6xl lg:text-7xl xl:text-[90px]  -mb-[0.45rem] md:font-extrabold text-3xl text-[#1C1C27] font-extrabold md:-mb-[0.6rem] lg:-mb-[0.8rem] xl:-mb-[1rem]">
           Nihar Chandra Sharma
         </h1>
-        </div>
       </div>
     </div>
   );
