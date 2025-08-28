@@ -9,7 +9,7 @@ export const Mobilenav = () => {
   const [nav ,setNav]=useState(true);
   
   return (
-    <div className='flex flex-col w-[18rem] p-7 shadow-md shadow-black  bg-black/30 backdrop-blur-md rounded-3xl  fixed text-3xl   top-8 right-0 -z-10'>
+    <div className='flex flex-col w-[18rem] p-7 shadow-md shadow-black  bg-black/50 backdrop-blur-xl rounded-3xl  fixed text-3xl   top-12 right-0 z-10'>
       <div className='flex flex-col  '>
 
         <a href='#about'  className='border-b-2 border-yellow-500'>About</a>
