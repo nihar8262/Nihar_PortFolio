@@ -49,7 +49,7 @@ export const Herosection = ({ isDropdown, closeModal }) => {
           <img
             src={image}
             alt=""
-            className="w-44 h-44 md:w-80 md:h-80 rounded-full border-2 border-[#854CE6] shadow-xl hover:shadow-indigo-500/25 object-cover"
+            className="w-64 h-64 md:w-80 md:h-80 rounded-full border-2 border-[#854CE6] shadow-xl hover:shadow-indigo-500/25 object-cover"
           />
         </div>
       </div>

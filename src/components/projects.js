@@ -25,14 +25,24 @@ export const Project = () => {
     <div id="projects" className="w-full bg-gradient-to-b from-[#1a1a2e] via-[#23234b] to-[#1a1a2e] py-16 px-2">
       <div className="relative flex flex-col justify-center items-center">
         {/* Project header */}
-        <div className="text-white text-center mt-10 w-full max-w-2xl">
-          <h1 className="font-bold text-3xl mb-6 border-b-2 border-b-yellow-500 py-2">Projects</h1>
-          <p className="text-slate-300">
+        <div className="text-white text-center mt-10 w-full max-w-2xl relative">
+          <h1 className="font-bold text-3xl mb-6 border-b-2 border-b-yellow-500 py-2 relative">
+            Projects
+            {/* Astro Image positioned on the yellow border */}
+            <div className="absolute -bottom-7 left-4 md:left-8 transform transition duration-500 hover:scale-125 animate-bounce">
+              <button onClick={() => setNav(!nav)}>
+                {nav ? <Message1 /> : null}
+                <img src={image} alt="" className="w-16 md:w-20 drop-shadow-lg" />
+              </button>
+            </div>
+          </h1>
+          <p className="text-slate-300 mt-6">
             I have worked on a wide range of projects. From web apps to android apps. Here are some of my projects.
           </p>
         </div>
+        
         {/* Option */}
-        <div className="flex gap-2 sm:gap-4 text-[#854CE6] p-1 mt-10 border border-[#854CE6] rounded-full items-center justify-center bg-slate-900/80 md:text-xl shadow-lg">
+        <div className="flex gap-2 sm:gap-4 text-[#854CE6] p-1 mt-16 border border-[#854CE6] rounded-full items-center justify-center bg-slate-900/80 md:text-xl shadow-lg">
           <button
             onClick={allProject}
             className={`px-4 py-2 rounded-full transition-all font-semibold
@@ -58,13 +68,7 @@ export const Project = () => {
             ANDROID APP'S
           </button>
         </div>
-        {/* Astro Button */}
-        <div className="absolute top-2 left-2 md:top-10 md:left-20 transform transition duration-500 ">
-          <button onClick={() => setNav(!nav)}>
-            {nav ? <Message1 /> : null}
-            <img src={image} alt="" className="w-20 md:w-24 drop-shadow-lg" />
-          </button>
-        </div>
+        
         {/* Projects */}
         <div className="w-full flex flex-wrap gap-8 items-center justify-center mt-12">
           {filtered.map((project, idx) => (

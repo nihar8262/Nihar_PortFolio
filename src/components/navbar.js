@@ -76,10 +76,10 @@ export const Navbar = () => {
           <button onClick={() => setNav(!nav)}>
             {nav ? <FaTimes /> : <FaBars />}
           </button>
-          {nav ? <Mobilenav nav={nav} /> : null}
+          {nav ? <Mobilenav  onClose={() => setNav(false)} /> : null}
         </motion.div>
         {/* Nav content */}
-        <div className="hidden md:flex gap-2 lg:gap-6 border p-1 text-white rounded-3xl bg-black/50 backdrop-blur-lg">
+        <div className="hidden md:flex gap-2 lg:gap-6 border p-1 text-white rounded-3xl  backdrop-blur-lg">
           {navLinks.map(link => (
             <a
               key={link.href}

@@ -51,7 +51,7 @@ export const Bio = {
         },
         {
           name:"Angular",
-          image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Angular_gradient.png/1200px-Angular_gradient.png"
+          image:"https://angular.dev/assets/images/press-kit/angular_icon_gradient.gif"
         },
         {
           name: "CSS",
@@ -143,7 +143,7 @@ export const Bio = {
       skills: [
         {
           name:"Docker",
-          image:"https://blog.kakaocdn.net/dna/eAWSDY/btqy7KQaG3o/AAAAAAAAAAAAAAAAAAAAAKNpTC3ORP1e9IKBpgRQIqZgdG0usqb8DwXJTEPiFkU9/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=haz6WbgrHh%2F40wiv2qvkdxpU%2FeM%3D"
+          image:"https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png"
         },
         {
           name: "Git",
@@ -152,13 +152,13 @@ export const Bio = {
         {
           name: "GitHub",
           image:
-            "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+            "https://images.seeklogo.com/logo-png/30/2/github-logo-png_seeklogo-304612.png",
         },
         
         {
           name: "Netlify",
           image:
-            "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+            "https://media2.dev.to/dynamic/image/width=320,height=320,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Forganization%2Fprofile_image%2F141%2F786e7a76-3019-4b70-9d33-663ffdbb1d8e.png",
         },
         {
           name: "VS Code",
@@ -195,11 +195,11 @@ export const Bio = {
         "Optimized high-traffic API integrations with CISCO's internal EARMS and SSR systems, implementing intelligent caching and load balancing to handle 1000+ daily test result queries",
         "Drove data-driven decision making by implementing comprehensive analytics and shareable reporting features, enabling stakeholders to track product quality metrics and testing ROI"
       ],
-      bg:"bg-gradient-to-tr from-black via-black to-neutral-700   shadow-sm shadow-slate-300  max-h-full p-6 w-[70vw] md:w-[50vw]  rounded-lg  text-white transform transition duration-500   ",
+      bg:"bg-gradient-to-tr from-black via-black to-neutral-700   shadow-sm shadow-slate-300  max-h-full p-6 w-[85vw] md:w-[70vw]  rounded-lg  text-white transform transition duration-500   ",
       skills: [
         {
           name:"Angular 18",
-          image:"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Angular_gradient.png/1200px-Angular_gradient.png"
+          image:"https://angular.dev/assets/images/press-kit/angular_icon_gradient.gif"
         },
 
         {
@@ -208,7 +208,7 @@ export const Bio = {
         },
         {
           name:"Docker",
-          image:"https://blog.kakaocdn.net/dna/eAWSDY/btqy7KQaG3o/AAAAAAAAAAAAAAAAAAAAAKNpTC3ORP1e9IKBpgRQIqZgdG0usqb8DwXJTEPiFkU9/img.jpg?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&expires=1756652399&allow_ip=&allow_referer=&signature=haz6WbgrHh%2F40wiv2qvkdxpU%2FeM%3D"
+          image:"https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png"
         },
         {
           name:"Node Js",
@@ -240,7 +240,7 @@ export const Bio = {
       company: "BEVARC Construction Pvt. Ltd.",
       location:"Patna, Bihar",
       date: "June 2024 - Aug 2024",
-      bg:"bg-gradient-to-tr from-black via-black to-neutral-700   shadow-sm shadow-slate-300 max-h-full p-6 w-[70vw] md:w-[50vw] rounded-lg text-white  transform transition duration-500",
+      bg:"bg-gradient-to-tr from-black via-black to-neutral-700   shadow-sm shadow-slate-300 max-h-full p-6 w-[85vw] md:w-[70vw] rounded-lg text-white  transform transition duration-500",
       desc: [
          "Created a complete website from scratch, covering the entire process from designing the user interface (UI) to implementing the front end.",
          "Implemented React JS and Tailwind CSS to ensure a responsive and user-friendly experience across various devices,enhancing accessibility and usability by 25%.",
@@ -286,7 +286,7 @@ export const Bio = {
       id: 0,
       title: "FACTS",
       date: "Dec 2023 - March 2024",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "Discover the heartbeat of campus life with our college club website! Explore a variety of student organizations, each led by passionate coordinators. Stay in the loop with event listings and dive into the excitement with our event photo gallery.",
       image:image9,
@@ -302,7 +302,7 @@ export const Bio = {
       id: 1,
       title: "Foodiee",
       date: "Nov 2023 - Present",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/70 to-orange-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/70 to-orange-500/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "A food-delivering Android app that has different restaurants to order food. Redux is used to add items to your cart. And a map is also given to see where the restaurant is and how much it will take to deliver it.",
       image:image5,
@@ -315,7 +315,7 @@ export const Bio = {
       id: 8,
       title: "Secure Vault",
       date: "Jun 2025 - June 2025",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-600/50 to-purple-900/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-600/50 to-purple-900/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "Password Manager App is a user-friendly tool that helps users store and manage their login credentials. It allows users to save website URLs, usernames, and passwords in an organized way. Users can easily edit, delete, or copy any saved entry.",
       image:image11,
@@ -334,7 +334,7 @@ export const Bio = {
       id: 2,
       title: "Github Detective",
       date: "Jun 2023 - June 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-blue-800/30 to-sky-600/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-blue-800/30 to-sky-600/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "This website shows the profile of Github users by entering the username user want to search.",
       image:image3,
@@ -351,7 +351,7 @@ export const Bio = {
       id: 3,
       title: "Password Generator",
       date: "Apr 2023 - May 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-800/50 to-purple-600/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-800/50 to-purple-600/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "A webpage where we can genrate random password, we can select length of the password as per our need.",
       image:image1,
@@ -367,7 +367,7 @@ export const Bio = {
       id: 7,
       title: "Todo App",
       date: "May 2023 - May 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-amber-700/50 to-amber-500 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-amber-700/50 to-amber-500 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "A simple and intuitive task management app built to help users organize their daily activities efficiently. Users can add, edit, delete, and mark tasks as completed in a clean, minimal UI. The app is fully responsive and uses local storage to retain tasks across sessions.",
       image:image10,
@@ -385,7 +385,7 @@ export const Bio = {
       id: 4,
       title: "Weather App",
       date: "May 2023 - May 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-sky-800/50 to-sky-600/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-sky-800/50 to-sky-600/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "Search the weather conditions of any city using city name,Weather info is fetched using OpenWeather Api.",
       image:image2,
@@ -404,7 +404,7 @@ export const Bio = {
       id: 5,
       title: "Net Chillin",
       date: "Oct 2023 - Present",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-red-800/60 to-red-600/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-red-800/60 to-red-600/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "A movie and its cast description app where any one can know about their favourite movies and movie actors.Search bar is also given to search and get information about your favourite movies. All the movies and the cast deatils are feteched using TDMB api.",
       image:image4,
@@ -417,7 +417,7 @@ export const Bio = {
       id: 6,
       title: "AI Web Summarizer",
       date: "March 2023 - March 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/50 to-orange-500/80 max-h-full p-6 w-[21rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/50 to-orange-500/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "This website is a AI summarizer app in which you can paste the link of a website which you want to summarize for you.It uses Rapid API to summarize a website.React Redux is also used to show the data by storing it locally.",
       image:image8,
