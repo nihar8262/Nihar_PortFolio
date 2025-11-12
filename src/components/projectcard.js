@@ -14,12 +14,12 @@ export const Projectcard = ({project}) => {
              
                     <div
                     className={project?.bg}>
-                      <a href={project?.webapp} target='_blank'>
+                      <a href={project?.webapp} target='_blank' rel="noopener noreferrer">
                       <img src={project?.image} alt="" className='hover:scale-105 transition-all ease-in-out duration-500 rounded-md mb-4 w-3/2 h-48 md:h-40 lg:h-48 xl:h-52'/>
                       </a>
-                        <div className='flex flex-wrap gap-2 w-[16rem] text-[#a277ec] '>
+                        <div className='flex flex-wrap gap-2 w-[16rem] text-white '>
                      {  project.tags.map((tag)=>(
-                            <h1 className='bg-purple-600/20 text-sm rounded-3xl py-1 px-1.5'>{tag}</h1>
+                            <h1 className='bg-gray-600/30 text-xs rounded-3xl py-1 px-1.5'>{tag}</h1>
                        ))}
                         </div>
                         <h1 className='mt-2 mb-2 text-3xl text-slate-300'>{project.title}</h1>
@@ -29,13 +29,13 @@ export const Projectcard = ({project}) => {
                         </p>
                         <div className='flex gap-10 mt-5'>
                         <div className='transform transition duration-500 hover:scale-150 cursor-pointer'>
-                        <a href={project.github} target='_blank'><FaGithub size={35} 
+                        <a href={project.github} target='_blank' rel="noopener noreferrer"><FaGithub size={35} 
                           onMouseOut={({target})=>target.style.color="white"}
                           onMouseOver={({target})=>target.style.color="#854CE6"}
                         /></a>
                         </div>
                         <div className='transform transition duration-500 hover:scale-150 cursor-pointer'>
-                        <a href={project.webapp} target='_blank'><FaLink size={30}
+                        <a href={project.webapp} target='_blank' rel="noopener noreferrer"><FaLink size={30}
                           onMouseOut={({target})=>target.style.color="white"}
                           onMouseOver={({target})=>target.style.color="#854CE6"}
                         /></a>

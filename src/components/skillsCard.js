@@ -28,7 +28,7 @@ export const SkillsCard = () => {
                                 skill.skills.map((item)=>(
                                     
                                     <div className=" border border-slate-500  p-2 flex  rounded-lg justify-center items-center gap-2 ">
-                                        <img src={item.image} alt="" className="w-5 "/><p className="text-white">{item.name}</p>
+                                        <img src={item.image} alt="" className="w-6 "/><p className="text-white">{item.name}</p>
                                     </div>
                                     
                                 ))
