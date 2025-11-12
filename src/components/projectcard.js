@@ -17,9 +17,9 @@ export const Projectcard = ({project}) => {
                       <a href={project?.webapp} target='_blank'>
                       <img src={project?.image} alt="" className='hover:scale-105 transition-all ease-in-out duration-500 rounded-md mb-4 w-3/2 h-48 md:h-40 lg:h-48 xl:h-52'/>
                       </a>
-                        <div className='flex flex-wrap gap-2 w-[16rem] text-[#a277ec] '>
+                        <div className='flex flex-wrap gap-2 w-[16rem] text-white '>
                      {  project.tags.map((tag)=>(
-                            <h1 className='bg-purple-600/20 text-sm rounded-3xl py-1 px-1.5'>{tag}</h1>
+                            <h1 className='bg-gray-600/30 text-xs rounded-3xl py-1 px-1.5'>{tag}</h1>
                        ))}
                         </div>
                         <h1 className='mt-2 mb-2 text-3xl text-slate-300'>{project.title}</h1>

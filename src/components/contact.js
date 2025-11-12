@@ -8,7 +8,7 @@ export const Contact = () => {
 
   return (
     <div id="contact" >
-      <div className="flex  flex-col justify-center items-center  ">
+      <div className="flex px-6 md:px-0 flex-col justify-center items-center  ">
         {/* contact header */}
         <div className="text-white text-center mt-10  w-[20rem] mb-10 md:w-[34rem] ">
           <h1 className="font-bold text-3xl mb-10 border-b-2 border-b-yellow-500 py-2">
@@ -89,8 +89,8 @@ export const Contact = () => {
           
         </form>
         </div>
-        <h1 className=" md:text-6xl lg:text-7xl xl:text-[110px]  -mb-[0.45rem] md:font-extrabold text-3xl text-[#1C1C27] font-extrabold md:-mb-[0.6rem] lg:-mb-[0.8rem] xl:-mb-[1rem]">
-          Nihar Chandra Sharma
+        <h1 className=" md:text-6xl lg:text-7xl xl:text-[110px]  -mb-[0.55rem] md:font-extrabold text-4xl text-[#1C1C27] font-extrabold md:-mb-[0.8rem] lg:-mb-[1rem] xl:-mb-[1.2rem]">
+          NIHAR CHANDRA
         </h1>
       </div>
     </div>
