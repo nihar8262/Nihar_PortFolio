@@ -21,7 +21,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/nihar8262",
     resume:
-      "https://drive.google.com/file/d/1LMChQRxECWY4LCIVb_8zFe5NqbQXGz4A/view?usp=sharing",
+      "https://drive.google.com/file/d/1sW4AMh9FgmM8cj7s16yXHvbePPZxafqk/view?usp=sharing",
     leetcode:"https://leetcode.com/u/niharnics/",
     codeforces:"https://codeforces.com/profile/niharnics",
     linkedin: "https://www.linkedin.com/in/nihar-chandra-sharma-5559a720a/",
