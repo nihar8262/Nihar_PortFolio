@@ -36,12 +36,12 @@ export const Herosection = ({ isDropdown, closeModal }) => {
               href={Bio.resume}
               target="_blank"
               rel="noopener noreferrer">
-<button class="border text-gray-50  duration-300 relative group cursor-pointer   overflow-hidden h-14 w-40 rounded-md  p-2  font-extrabold hover:bg-[#631fd9]">
+<button class="border text-gray-50  duration-300 relative group cursor-pointer   overflow-hidden h-12 w-40 rounded-full  p-2  font-extrabold hover:bg-[#631fd9]">
 
-  <div class="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-16 h-16 rounded-full group-hover:scale-150 group-hover:blur-md  duration-700 right-12 top-12 bg-yellow-500"></div>
+  <div class="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-16 h-16 rounded-full group-hover:scale-150 group-hover:blur-md  duration-700 right-12 top-8 bg-yellow-500"></div>
   <div class="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-12 h-12 rounded-full group-hover:scale-150 group-hover:blur-md duration-700 right-20 -top-6 bg-orange-500"></div>
   <div class="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-8 h-8   rounded-full group-hover:scale-150 group-hover:blur-md duration-700 right-32 top-6 bg-pink-500"></div>
-  <div class="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-4 h-4   rounded-full group-hover:scale-150 group-hover:blur-md duration-700 right-2 top-12 bg-red-600"></div>
+  <div class="absolute group-hover:-top-1 group-hover:-right-2 z-10 w-4 h-4   rounded-full group-hover:scale-150 group-hover:blur-md duration-700 right-2 top-8 bg-red-600"></div>
   <p class="z-10 absolute bottom-[.8rem] left-[2.8rem]">Resume</p>
 </button>
 

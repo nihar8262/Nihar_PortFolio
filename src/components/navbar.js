@@ -103,7 +103,7 @@ export const Navbar = () => {
         {/* Button */}
         <div className="hidden md:block">
           <a href={Bio.github} target="_blank" rel="noopener noreferrer">
-            <button class="group relative cursor-pointer outline-none border-none rounded-full flex flex-row items-center justify-center h-8 w-8 hover:!w-[100px] transition-all duration-[0.75s] before:content-[''] before:absolute before:w-full before:h-full before:inset-0 before:bg-[linear-gradient(130deg,#7209d4,#2832d4_33%,#631fd9)] before:ring-4 before:ring-offset-4 before:ring-[#631fd9] before:rounded-full before:transition before:duration-300 before:ring-offset-[#fff] hover:before:scale-105 active:before:scale-95 text-white">
+            <button class="group relative cursor-pointer outline-none border-none rounded-full flex flex-row items-center justify-center h-8 w-8 hover:!w-[100px] transition-all duration-[0.75s] before:content-[''] before:absolute before:w-full before:h-full before:inset-0 before:bg-[linear-gradient(130deg,#7209d4,#2832d4_33%,#631fd9)] before:ring-4 before:ring-offset-2 before:ring-[#631fd9] before:rounded-full before:transition before:duration-300 before:ring-offset-[#fff] hover:before:scale-105 active:before:scale-95 text-white">
               <svg
                 fill="currentColor"
                 stroke-width="0"
