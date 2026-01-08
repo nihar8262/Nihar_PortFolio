@@ -9,6 +9,7 @@ import image8 from "../Image/Web-Summarizer.png"
 import image9 from "../Image/fact.png"
 import image10 from "../Image/LineUp.png"
 import image11 from "../Image/Secure-valut.png"
+import image12 from "../Image/True-Feedback.png"
 
 export const Bio = {
     name: "Nihar Chandra Sharma",
@@ -283,6 +284,41 @@ export const Bio = {
   
   export const projects = [
     {
+      id: 7,
+      title: "True Feedback",
+      date: "March 2024 - June 2024",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-blue-500 max-h-full p-6 w-[19rem]  rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      description:
+        "A full-stack(Anonymous Messaging Platform) web application that enables users to create custom events and receive anonymous feedback through shareable links.Users can create unlimited events, generate unique shareable URLs, and manage incoming messages through an intuitive dashboard. The application features NextAuth.js authentication with multiple providers, real-time email verification via Resend, and a responsive UI built with shadcn/ui and Tailwind CSS.",
+      image:image12,
+      tags: [
+        "Next.js 14",
+        "TypeScript",
+        "Tailwind",
+        "MongoDB",
+        "NextAuth.js",
+        "Resend API",
+        "shadcn/ui",
+        "Zod"
+      ],
+      category: "web",
+      github: "https://github.com/nihar8262/msganonymous",
+      webapp: "https://msganonymous.vercel.app/",
+    },
+    {
+      id: 1,
+      title: "Foodiee",
+      date: "Nov 2023 - Jan 2024",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/70 to-orange-500/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      description:
+        "A food-delivering Android app that has different restaurants to order food. Redux is used to add items to your cart. And a map is also given to see where the restaurant is and how much it will take to deliver it.",
+      image:image5,
+      tags: ["React Native","JavaScript",  "Firebase", "Graph QL","Sanity"],
+      category: "android app",
+      github: "https://github.com/nihar8262/food-app",
+      webapp: "https://github.com/nihar8262/food-app",
+    },
+    {
       id: 0,
       title: "FACTS",
       date: "Dec 2023 - March 2024",
@@ -299,22 +335,9 @@ export const Bio = {
       webapp: "https://facts-nce.vercel.app/",
     },
     {
-      id: 1,
-      title: "Foodiee",
-      date: "Nov 2023 - Present",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/70 to-orange-500/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
-      description:
-        "A food-delivering Android app that has different restaurants to order food. Redux is used to add items to your cart. And a map is also given to see where the restaurant is and how much it will take to deliver it.",
-      image:image5,
-      tags: ["React Native","JavaScript",  "Firebase", "Graph QL","Sanity"],
-      category: "android app",
-      github: "https://github.com/nihar8262/food-app",
-      webapp: "https://github.com/nihar8262/food-app",
-    },
-    {
       id: 8,
       title: "Secure Vault",
-      date: "Jun 2025 - June 2025",
+      date: "Jun 2024 - June 2024",
       bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-600/50 to-purple-900/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
       description:
         "Password Manager App is a user-friendly tool that helps users store and manage their login credentials. It allows users to save website URLs, usernames, and passwords in an organized way. Users can easily edit, delete, or copy any saved entry.",
