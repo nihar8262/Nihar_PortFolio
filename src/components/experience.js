@@ -57,10 +57,10 @@ export const Experience = () => {
                   {experience.skills?.map((item, i) => (
                     <div
                       key={i}
-                      className="border border-slate-500 bg-[#1a1a2e] bg-opacity-60 p-1 pr-2 flex items-center rounded-full gap-2 shadow-sm"
+                      className="border border-slate-500 hover:bg-white/80 text-white hover:text-black p-1 pr-2 flex items-center rounded-full gap-2 shadow-sm"
                     >
                       <img src={item.image} alt="" className="w-6 h-6 rounded-full aspect-square" />
-                      <p className="text-white text-xs md:text-sm">{item.name}</p>
+                      <p className="text-xs">{item.name}</p>
                     </div>
                   ))}
                 </div>

@@ -7,7 +7,7 @@ export const Skills = () => {
     const [nav, setNav] = useState(false);
    
   return (
-    <div id="skills" className="bg-gradient-to-b from-[#1a1a2e] via-[#23234b] to-[#1a1a2e] py-16">
+    <div id="skills" className="bg-gradient-to-b from-[#1a1a2e] via-[#23234b] to-[#1a1a2e] py-6">
       <div className="flex relative flex-col justify-center items-center">
 
         {/* skills header */}
