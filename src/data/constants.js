@@ -22,7 +22,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/nihar8262",
     resume:
-      "https://drive.google.com/file/d/1LMChQRxECWY4LCIVb_8zFe5NqbQXGz4A/view?usp=sharing",
+      "https://drive.google.com/file/d/11STem9JfyjkI2ImwR7kq1X99WE84UzNi/view?usp=drivesdk",
     leetcode:"https://leetcode.com/u/niharnics/",
     codeforces:"https://codeforces.com/profile/niharnics",
     linkedin: "https://www.linkedin.com/in/nihar-chandra-sharma-5559a720a/",
@@ -33,14 +33,47 @@ export const Bio = {
   
   export const skills = [
     {
+      title: "Programming Languages",
+      skills: [
+        {
+          name: "C++",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+        },
+        {
+          name: "Java",
+          image:
+            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+        },
+        {
+          name: "Python",
+          image:
+            "https://www.citypng.com/public/uploads/preview/hd-python-logo-symbol-transparent-png-735811696257415dbkifcuokn.png",
+        },
+        {
+          name: "JavaScript",
+          image:
+            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+        },
+        {
+          name: "TypeScript",
+          image:
+            "https://cdn.iconscout.com/icon/free/png-256/free-typescript-3521774-2945272.png?f=webp",
+        },
+      ],
+    },
+    {
       title: "Frontend",
       skills: [
+        {
+          name:"Next Js",
+          image:"https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
+        },
         {
           name: "React Js",
           image:
             "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
         },
-        
         {
           name: "Redux",
           image:
@@ -58,16 +91,6 @@ export const Bio = {
           name: "CSS",
           image:
             "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
-        },
-        {
-          name: "JavaScript",
-          image:
-            "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
-        },
-        {
-          name: "TypeScript",
-          image:
-            "https://cdn.iconscout.com/icon/free/png-256/free-typescript-3521774-2945272.png?f=webp",
         },
         {
           name: "Bootstrap",
@@ -89,13 +112,21 @@ export const Bio = {
           image: "https://nodejs.org/static/images/logo.svg",
         },
         {
-          name: "Python",
-          image: "https://www.citypng.com/public/uploads/preview/hd-python-logo-symbol-transparent-png-735811696257415dbkifcuokn.png",
+          name: "MongoDB",
+          image: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
         },
         {
-          name: "Graph Ql",
-          image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
+          name:"Postman",
+          image:"https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg"
         },
+        {
+          name:"Elasticsearch",
+          image:"https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg"
+        },
+        // {
+        //   name: "Graph Ql",
+        //   image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg",
+        // },
         {
           name: "MySQL",
           image:
@@ -114,11 +145,6 @@ export const Bio = {
     {
       title: "Android",
       skills: [
-        {
-          name: "Java",
-          image:
-            "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
-        },
         {
           name: "React Native",
           image:
@@ -140,7 +166,7 @@ export const Bio = {
       ],
     },
     {
-      title: "Others",
+      title: "DevOps & Others",
       skills: [
         {
           name:"Docker",
@@ -199,17 +225,33 @@ export const Bio = {
       bg:"bg-gradient-to-tr from-black via-black to-neutral-700   shadow-sm shadow-slate-300  max-h-full p-6 w-[85vw] md:w-[70vw]  rounded-lg  text-white transform transition duration-500   ",
       skills: [
         {
+          name:"Next Js",
+          image:"https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg"
+        },
+        {
           name:"Angular 18",
           image:"https://angular.dev/assets/images/press-kit/angular_icon_gradient.gif"
         },
-
+        {
+          name: "React Js",
+          image:
+            "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+        },
         {
           name:"TypeScript",
           image:"https://cdn.iconscout.com/icon/free/png-256/free-typescript-3521774-2945272.png?f=webp"
         },
         {
+          name: "MongoDB",
+          image: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
+        },
+        {
           name:"Docker",
           image:"https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/97_Docker_logo_logos-512.png"
+        },
+        {
+          name:"Elasticsearch",
+          image:"https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg"
         },
         {
           name:"Node Js",
@@ -287,19 +329,19 @@ export const Bio = {
       id: 7,
       title: "True Feedback",
       date: "March 2024 - June 2024",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-blue-500 max-h-full p-6 w-[19rem]  rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-blue-500 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
       description:
         "A full-stack(Anonymous Messaging Platform) web application that enables users to create custom events and receive anonymous feedback through shareable links.Users can create unlimited events, generate unique shareable URLs, and manage incoming messages through an intuitive dashboard. The application features NextAuth.js authentication with multiple providers, real-time email verification via Resend, and a responsive UI built with shadcn/ui and Tailwind CSS.",
       image:image12,
       tags: [
-        "Next.js 14",
-        "TypeScript",
-        "Tailwind",
-        "MongoDB",
-        "NextAuth.js",
-        "Resend API",
-        "shadcn/ui",
-        "Zod"
+        { name: "Next.js", image: "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg" },
+        { name: "TypeScript", image: "https://cdn.iconscout.com/icon/free/png-256/free-typescript-3521774-2945272.png?f=webp" },
+        { name: "Tailwind", image: "https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg" },
+        { name: "MongoDB", image: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" },
+        { name: "NextAuth", image: "https://next-auth.js.org/img/logo/logo-sm.png" },
+        { name: "Resend API", image: "https://resend.com/static/favicon-32x32.png" },
+        { name: "shadcn/ui", image: "https://ui.shadcn.com/apple-touch-icon.png" },
+        { name: "Zod", image: "https://zod.dev/logo.svg" }
       ],
       category: "web",
       github: "https://github.com/nihar8262/msganonymous",
@@ -309,11 +351,17 @@ export const Bio = {
       id: 1,
       title: "Foodiee",
       date: "Nov 2023 - Jan 2024",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/70 to-orange-500/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/70 to-orange-500/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
       description:
         "A food-delivering Android app that has different restaurants to order food. Redux is used to add items to your cart. And a map is also given to see where the restaurant is and how much it will take to deliver it.",
       image:image5,
-      tags: ["React Native","JavaScript",  "Firebase", "Graph QL","Sanity"],
+      tags: [
+        { name: "React Native", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" },
+        { name: "JavaScript", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" },
+        { name: "Firebase", image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" },
+        { name: "GraphQL", image: "https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" },
+        { name: "Sanity", image: "https://cdn.worldvectorlogo.com/logos/sanity.svg" }
+      ],
       category: "android app",
       github: "https://github.com/nihar8262/food-app",
       webapp: "https://github.com/nihar8262/food-app",
@@ -322,49 +370,102 @@ export const Bio = {
       id: 0,
       title: "FACTS",
       date: "Dec 2023 - March 2024",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
       description:
         "Discover the heartbeat of campus life with our college club website! Explore a variety of student organizations, each led by passionate coordinators. Stay in the loop with event listings and dive into the excitement with our event photo gallery.",
       image:image9,
       tags: [
-        "React JS ",
-        "Tailwind",
+        { name: "React JS", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" },
+        { name: "Tailwind", image: "https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg" }
       ],
       category: "web",
       github: "https://github.com/nihar8262/FACTS-N",
       webapp: "https://facts-nce.vercel.app/",
     },
     {
+      id: 6,
+      title: "AI Web Summarizer",
+      date: "March 2023 - March 2023",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/50 to-orange-500/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
+      description:
+        "This website is a AI summarizer app in which you can paste the link of a website which you want to summarize for you.It uses Rapid API to summarize a website.React Redux is also used to show the data by storing it locally.",
+      image:image8,
+      tags: [
+        { name: "React JS", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" },
+        { name: "Tailwind", image: "https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg" },
+        { name: "Redux", image: "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg" }
+      ],
+      category: "web",
+      github: "https://github.com/nihar8262/AI_Summarizer",
+      webapp: "https://ai-web-summarizer-delta.vercel.app/",
+    },
+    {
       id: 8,
       title: "Secure Vault",
       date: "Jun 2024 - June 2024",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-600/50 to-purple-900/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-600/50 to-purple-900/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
       description:
         "Password Manager App is a user-friendly tool that helps users store and manage their login credentials. It allows users to save website URLs, usernames, and passwords in an organized way. Users can easily edit, delete, or copy any saved entry.",
       image:image11,
       tags: [
-        "React JS ",
-        "Tailwind",
-        "Node JS",
-        "Express JS",
-        "MongoDB",
+        { name: "React JS", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" },
+        { name: "Tailwind", image: "https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg" },
+        { name: "Node JS", image: "https://nodejs.org/static/images/logo.svg" },
+        { name: "Express JS", image: "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png" },
+        { name: "MongoDB", image: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" }
       ],
       category: "web",
       github: "https://github.com/nihar8262/Secure-Vault",
       webapp: "https://secure-vault.vercel.app/",
     },
     {
+      id: 5,
+      title: "Net Chillin",
+      date: "Oct 2023 - Present",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-red-800/60 to-red-600/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
+      description:
+        "A movie and its cast description app where any one can know about their favourite movies and movie actors.Search bar is also given to search and get information about your favourite movies. All the movies and the cast deatils are feteched using TDMB api.",
+      image:image4,
+      tags: [
+        { name: "React Native", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" },
+        { name: "JavaScript", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" },
+        { name: "Axios", image: "https://axios-http.com/assets/logo.svg" },
+        { name: "Firebase", image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" }
+      ],
+      category: "android app",
+      github: "https://github.com/nihar8262/NetChillin",
+      webapp: "https://streamify-six-phi.vercel.app/",
+    },
+    {
+      id: 7,
+      title: "Todo App",
+      date: "May 2023 - May 2023",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-amber-700/50 to-amber-500 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
+      description:
+        "A simple and intuitive task management app built to help users organize their daily activities efficiently. Users can add, edit, delete, and mark tasks as completed in a clean, minimal UI. The app is fully responsive and uses local storage to retain tasks across sessions.",
+      image:image10,
+      tags: [
+        { name: "React JS", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" },
+        { name: "Tailwind", image: "https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg" },
+        { name: "CSS", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" },
+        { name: "JavaScript", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" }
+      ],
+      category: "web",
+      github: "https://github.com/nihar8262/LineUp",
+      webapp: "https://line-up-psi.vercel.app/",
+    },
+    {
       id: 2,
       title: "Github Detective",
       date: "Jun 2023 - June 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-blue-800/30 to-sky-600/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-blue-800/30 to-sky-600/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
       description:
         "This website shows the profile of Github users by entering the username user want to search.",
       image:image3,
       tags: [
-        "HTML ",
-        "CSS",
-        "JavaScript",
+        { name: "HTML", image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" },
+        { name: "CSS", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" },
+        { name: "JavaScript", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" }
       ],
       category: "web",
       github: "https://github.com/nihar8262/Dev-Detective",
@@ -374,83 +475,35 @@ export const Bio = {
       id: 3,
       title: "Password Generator",
       date: "Apr 2023 - May 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-800/50 to-purple-600/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-800/50 to-purple-600/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
       description:
         "A webpage where we can genrate random password, we can select length of the password as per our need.",
       image:image1,
-      tags: ["HTML ",
-      "CSS",
-      "JavaScript",],
+      tags: [
+        { name: "HTML", image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" },
+        { name: "CSS", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" },
+        { name: "JavaScript", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" }
+      ],
       category: "web",
       github: "https://github.com/nihar8262/Password-Generator",
       webapp: "https://password-provider007.netlify.app/",
       
     },
     {
-      id: 7,
-      title: "Todo App",
-      date: "May 2023 - May 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-amber-700/50 to-amber-500 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
-      description:
-        "A simple and intuitive task management app built to help users organize their daily activities efficiently. Users can add, edit, delete, and mark tasks as completed in a clean, minimal UI. The app is fully responsive and uses local storage to retain tasks across sessions.",
-      image:image10,
-      tags: [
-        "React JS ",
-        "Tailwind",
-        "CSS",
-        "JavaScript",
-      ],
-      category: "web",
-      github: "https://github.com/nihar8262/LineUp",
-      webapp: "https://line-up-psi.vercel.app/",
-    },
-    {
       id: 4,
       title: "Weather App",
       date: "May 2023 - May 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-sky-800/50 to-sky-600/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-sky-800/50 to-sky-600/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
       description:
         "Search the weather conditions of any city using city name,Weather info is fetched using OpenWeather Api.",
       image:image2,
-      tags: [
-        "HTML ",
-        "CSS",
-        "JavaScript",
+       tags: [
+        { name: "HTML", image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" },
+        { name: "CSS", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" },
+        { name: "JavaScript", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" }
       ],
       category: "web",
       github: "https://github.com/nihar8262/Weather-App",
       webapp: "https://weather-checker7.netlify.app/",
-    },
-   
-   
-    {
-      id: 5,
-      title: "Net Chillin",
-      date: "Oct 2023 - Present",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-red-800/60 to-red-600/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
-      description:
-        "A movie and its cast description app where any one can know about their favourite movies and movie actors.Search bar is also given to search and get information about your favourite movies. All the movies and the cast deatils are feteched using TDMB api.",
-      image:image4,
-      tags: ["React Native", "JavaScript", "Axios", "Firebase",],
-      category: "android app",
-      github: "https://github.com/nihar8262/NetChillin",
-      webapp: "https://streamify-six-phi.vercel.app/",
-    },
-    {
-      id: 6,
-      title: "AI Web Summarizer",
-      date: "March 2023 - March 2023",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/50 to-orange-500/80 max-h-full p-6 w-[19rem] h-[42rem] rounded-lg m-5 text-white  md:w-[18rem] lg:w-[24rem] xl:w-[27rem] hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500  hover:scale-105 ",
-      description:
-        "This website is a AI summarizer app in which you can paste the link of a website which you want to summarize for you.It uses Rapid API to summarize a website.React Redux is also used to show the data by storing it locally.",
-      image:image8,
-      tags: [
-        "React JS ",
-        "Tailwind",
-        "Redux",
-      ],
-      category: "web",
-      github: "https://github.com/nihar8262/AI_Summarizer",
-      webapp: "https://ai-web-summarizer-delta.vercel.app/",
     },
   ];
