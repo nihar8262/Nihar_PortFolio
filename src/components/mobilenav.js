@@ -6,7 +6,7 @@ export const Mobilenav = ({ onClose }) => {
   
   
   return (
-    <div className='flex flex-col w-[18rem] p-7 shadow-md shadow-black bg-black/50 backdrop-blur-xl rounded-3xl fixed text-3xl top-12 right-0 z-10'>
+    <div className='flex flex-col w-[25rem] p-7 shadow-md shadow-black bg-black/50 backdrop-blur-xl rounded-3xl fixed text-3xl top-12 right-0 z-50 border border-white/20'>
       <div className='flex flex-col'>
         <a href='#about' onClick={onClose} className='border-b-2 border-yellow-500'>About</a>
         <a href='#exp' onClick={onClose} className='border-b-2 mt-2 border-yellow-500'>Experiences</a>
