@@ -14,7 +14,7 @@ export const Projectcard = ({project}) => {
       <div className='flex flex-wrap gap-2 w-full text-white'>
         {project.tags.map((tag, index) => (
           <div key={index} className='bg-gray-600/30 text-xs rounded-3xl py-1 px-2 flex items-center gap-1.5'>
-            <img src={tag.image} alt={tag.name} className='w-4 h-4 rounded-sm object-contain' />
+            <img src={tag.image} alt={tag.name} className='w-4 h-4 bg-white rounded-full object-contain' />
             <span>{tag.name}</span>
           </div>
         ))}
