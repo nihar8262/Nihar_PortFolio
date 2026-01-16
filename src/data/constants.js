@@ -339,9 +339,9 @@ export const Bio = {
         { name: "Tailwind", image: "https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg" },
         { name: "MongoDB", image: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" },
         { name: "NextAuth", image: "https://next-auth.js.org/img/logo/logo-sm.png" },
-        { name: "Resend API", image: "https://resend.com/static/favicon-32x32.png" },
+        { name: "Resend API", image: "https://cdn.resend.com/brand/resend-header.png" },
         { name: "shadcn/ui", image: "https://ui.shadcn.com/apple-touch-icon.png" },
-        { name: "Zod", image: "https://zod.dev/logo.svg" }
+        { name: "Zod", image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaDvE3p92q4_UrWdKie0qHGQvWRG0vbIp3zQ&s" }
       ],
       category: "web",
       github: "https://github.com/nihar8262/msganonymous",
@@ -365,6 +365,25 @@ export const Bio = {
       category: "android app",
       github: "https://github.com/nihar8262/food-app",
       webapp: "https://github.com/nihar8262/food-app",
+    },
+    {
+      id: 8,
+      title: "Secure Vault",
+      date: "Jun 2024 - June 2024",
+      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-600/50 to-purple-900/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
+      description:
+        "Password Manager App is a user-friendly tool that helps users store and manage their login credentials. It allows users to save website URLs, usernames, and passwords in an organized way. Users can easily edit, delete, or copy any saved entry.",
+      image:image11,
+      tags: [
+        { name: "React JS", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" },
+        { name: "Tailwind", image: "https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg" },
+        { name: "Node JS", image: "https://nodejs.org/static/images/logo.svg" },
+        { name: "Express JS", image: "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png" },
+        { name: "MongoDB", image: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" }
+      ],
+      category: "web",
+      github: "https://github.com/nihar8262/Secure-Vault",
+      webapp: "https://secure-vault.vercel.app/",
     },
     {
       id: 0,
@@ -398,25 +417,6 @@ export const Bio = {
       category: "web",
       github: "https://github.com/nihar8262/AI_Summarizer",
       webapp: "https://ai-web-summarizer-delta.vercel.app/",
-    },
-    {
-      id: 8,
-      title: "Secure Vault",
-      date: "Jun 2024 - June 2024",
-      bg:"bg-slate-900 hover:bg-gradient-to-t from-black via-purple-600/50 to-purple-900/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
-      description:
-        "Password Manager App is a user-friendly tool that helps users store and manage their login credentials. It allows users to save website URLs, usernames, and passwords in an organized way. Users can easily edit, delete, or copy any saved entry.",
-      image:image11,
-      tags: [
-        { name: "React JS", image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K" },
-        { name: "Tailwind", image: "https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg" },
-        { name: "Node JS", image: "https://nodejs.org/static/images/logo.svg" },
-        { name: "Express JS", image: "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png" },
-        { name: "MongoDB", image: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg" }
-      ],
-      category: "web",
-      github: "https://github.com/nihar8262/Secure-Vault",
-      webapp: "https://secure-vault.vercel.app/",
     },
     {
       id: 5,
