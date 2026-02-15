@@ -22,31 +22,31 @@ export const Footer = () => {
 
       <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10 ]   mb-8 mt-8">
 
-      <div className="hover:bg-gradient-to-r from-black via-black/70 to-orange-400  transform transition duration-500 hover:scale-125 cursor-pointer border p-3 rounded-full">
+      <div className="hover:bg-gradient-to-r from-black via-black/70 to-orange-400 shadow-inner shadow-white/70  transform transition duration-500 hover:scale-110 cursor-pointer border p-3 rounded-full">
           <a href={Bio.leetcode} target="_blank" rel="noopener noreferrer">
             <SiLeetcode size={25} color="white" />
           </a>
         </div>
 
-        <div className="hover:bg-blue-800  transform transition duration-500 hover:scale-125 cursor-pointer border p-3 rounded-full">
+        <div className="hover:bg-blue-800 shadow-inner shadow-white/70  transform transition duration-500 hover:scale-110 cursor-pointer border p-3 rounded-full">
           <a href={Bio.linkedin} target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={25} color="white" />
           </a>
         </div>
 
-        <div className="hover:bg-gradient-to-t from-orange-600 via-pink-600 to-pink-700 transform transition duration-500 hover:scale-125 cursor-pointer border p-3 rounded-full">
+        <div className="hover:bg-gradient-to-t from-orange-600 via-pink-600 to-pink-700 shadow-inner shadow-white/70 transform transition duration-500 hover:scale-110 cursor-pointer border p-3 rounded-full">
           <a href={Bio.insta} target="_blank " rel="noopener noreferrer">
             <FaInstagram size={25} color="white" />
           </a>
         </div>
 
-        <div className="hover:bg-blue-800 transform transition duration-500 hover:scale-125 cursor-pointer border p-3 rounded-full">
+        <div className="hover:bg-blue-800 shadow-inner shadow-white/70 transform transition duration-500 hover:scale-110 cursor-pointer border p-3 rounded-full">
           <a href={Bio.facebook} target="_blank" rel="noopener noreferrer">
             <FaFacebook size={25} color="white" />
           </a>
         </div>
 
-        <div className="hover:bg-black transform transition duration-500 hover:scale-125 cursor-pointer border p-3 rounded-full">
+        <div className="hover:bg-black shadow-inner shadow-white/70 transform transition duration-500 hover:scale-110 cursor-pointer border p-3 rounded-full">
           <a href={Bio.twitter} target="_blank" rel="noopener noreferrer">
             <FaTwitter size={25} color="white" />
           </a>
