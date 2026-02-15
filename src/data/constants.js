@@ -367,7 +367,7 @@ export const projects = [
     date: "March 2024 - June 2024",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-blue-500 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
     description:
-      "A full-stack(Anonymous Messaging Platform) web application that enables users to create custom events and receive anonymous feedback through shareable links.Users can create unlimited events, generate unique shareable URLs, and manage incoming messages through an intuitive dashboard. The application features NextAuth.js authentication with multiple providers, real-time email verification via Resend, and a responsive UI built with shadcn/ui and Tailwind CSS.",
+      "True Feedback is a secure web platform that enables users to submit honest feedback anonymously, without revealing identity. I architected the frontend using Next.js 14, leveraging its server-side rendering and optimized routing for performance and SEO. On the backend, I used Supabase as a scalable real-time database and authentication provider, with NextAuth/Alt for secure session handling. The system uses JWT tokens for secure access control. This project explores best practices in authentication, data privacy, and modern web performance, while delivering a smooth, responsive UI built with Tailwind CSS and utility-first design principles.",
     image: image12,
     tags: [
       {
@@ -417,7 +417,7 @@ export const projects = [
     date: "Nov 2023 - Jan 2024",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/70 to-orange-500/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
     description:
-      "A food-delivering Android app that has different restaurants to order food. Redux is used to add items to your cart. And a map is also given to see where the restaurant is and how much it will take to deliver it.",
+      "Foodiee is a full-featured food delivery application designed to simulate a real-world ordering experience from browsing restaurants to checkout and delivery tracking. I built it using React Native for cross-platform mobile UI, Firebase for real-time data sync and authentication, and GraphQL for efficient API data fetching. The app allows users to search for restaurants, view menus, add items to cart, and place orders, with a focused UX to minimize friction in ordering flows. I implemented state management with Redux to ensure responsive UI transitions and seamless offline support, optimizing for performance on both Android and iOS devices.",
     image: image5,
     tags: [
       {
@@ -453,7 +453,7 @@ export const projects = [
     date: "Jun 2024 - June 2024",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-purple-600/50 to-purple-900/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
     description:
-      "Password Manager App is a user-friendly tool that helps users store and manage their login credentials. It allows users to save website URLs, usernames, and passwords in an organized way. Users can easily edit, delete, or copy any saved entry.",
+      "Secure Vault is a web application that securely stores and manages user secrets like passwords, API keys, and encrypted notes. I implemented robust encryption and secure storage patterns on both client and server layers, ensuring secrets remain safe at rest and in transit. While inspired by tools like HashiCorp Vault, Secure Vault focuses on accessible UI for individual users with encrypted local storage and optional cloud sync. I emphasized secure key management, credential hashing, and role-based access patterns in the design.",
     image: image11,
     tags: [
       {
@@ -487,7 +487,7 @@ export const projects = [
     date: "Dec 2023 - March 2024",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
     description:
-      "Discover the heartbeat of campus life with our college club website! Explore a variety of student organizations, each led by passionate coordinators. Stay in the loop with event listings and dive into the excitement with our event photo gallery.",
+      "FACTS is a campus community platform designed to showcase student clubs and help students discover events, coordinators, and ongoing activities in one place. The site presents a structured directory of clubs with leadership details, a dedicated events section to track upcoming and past events, and a photo gallery to highlight club culture and participation. I focused on building a clean, responsive UI with a consistent layout system, reusable components for club/event cards, and fast navigation so users can quickly explore organizations and find relevant information. The design is optimized for mobile and desktop, making it easy for students to browse on the go.",
     image: image9,
     tags: [
       {
@@ -511,7 +511,7 @@ export const projects = [
     date: "March 2023 - March 2023",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/50 to-orange-500/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
     description:
-      "This website is a AI summarizer app in which you can paste the link of a website which you want to summarize for you.It uses Rapid API to summarize a website.React Redux is also used to show the data by storing it locally.",
+      "This AI Web Summarizer is a productivity tool that turns long web pages into concise summaries by simply pasting a URL. It integrates a summarization endpoint via RapidAPI and displays clean, readable output with minimal friction. I used Redux to persist and manage state locally so previously summarized links and results can remain available even after navigation or refresh, improving usability. The UI is built with Tailwind for a fast, modern look and responsive layout, while the request layer handles loading, errors, and edge cases like invalid URLs or empty responses. This project helped me practice API integration patterns, state management, and designing a “single-purpose” experience that feels smooth and instant.",
     image: image8,
     tags: [
       {
@@ -540,7 +540,7 @@ export const projects = [
     date: "Oct 2023 - Present",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-red-800/60 to-red-600/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
     description:
-      "A movie and its cast description app where any one can know about their favourite movies and movie actors.Search bar is also given to search and get information about your favourite movies. All the movies and the cast deatils are feteched using TDMB api.",
+      "Net Chillin is a movie discovery app that helps users explore trending titles, search for specific movies, and view rich details such as synopsis, rating, genres, and cast information. The app fetches live data from the TMDB API and presents it through a smooth, card-based UI with dedicated screens for movie details and actor profiles. I implemented a responsive search experience, optimized API calls using Axios, and structured reusable components for movie lists and detail sections to keep the UI consistent. Firebase is integrated for features like authentication or data storage (depending on your implementation), and the overall architecture is designed to scale as more screens and categories are added.",
     image: image4,
     tags: [
       {
@@ -569,7 +569,7 @@ export const projects = [
     date: "May 2023 - May 2023",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-amber-700/50 to-amber-500 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
     description:
-      "A simple and intuitive task management app built to help users organize their daily activities efficiently. Users can add, edit, delete, and mark tasks as completed in a clean, minimal UI. The app is fully responsive and uses local storage to retain tasks across sessions.",
+      "This Todo App is a clean, responsive task manager built to help users organize daily work with minimal UI clutter. Users can create tasks, edit existing items, delete tasks, and mark items as completed, with the interface designed to keep the focus on speed and usability. The app uses local storage to persist tasks across sessions, so data is retained even after refresh or browser close. I structured the state and UI so updates feel instant and predictable, and ensured the design works well across devices using responsive layout rules and consistent spacing/typography.",
     image: image10,
     tags: [
       {
@@ -603,7 +603,7 @@ export const projects = [
     date: "Jun 2023 - June 2023",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-blue-800/30 to-sky-600/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
     description:
-      "This website shows the profile of Github users by entering the username user want to search.",
+      "GitHub Detective is a simple web tool that fetches and displays a GitHub user’s public profile information by username. It provides a quick overview of key data such as avatar, bio, repositories, followers/following, and other public details depending on the API response. The UI is designed to be straightforward and fast: enter a username, hit search, and instantly view structured profile information. This project helped me practice API consumption, error handling (invalid usernames / rate limits), and presenting data cleanly using vanilla HTML/CSS/JavaScript without frameworks.",
     image: image3,
     tags: [
       {
@@ -631,7 +631,7 @@ export const projects = [
     date: "Apr 2023 - May 2023",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-purple-800/50 to-purple-600/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
     description:
-      "A webpage where we can genrate random password, we can select length of the password as per our need.",
+      "Password Generator is a utility web app that creates strong random passwords based on user preferences. Users can choose the desired password length and generate a fresh password instantly, making it useful for secure account creation. I focused on building a predictable generation logic (randomness + character selection) and a simple UI that encourages secure choices. The app is lightweight and responsive, and can be extended easily with options like including symbols, numbers, uppercase/lowercase toggles, strength indicators, and copy-to-clipboard functionality.",
     image: image1,
     tags: [
       {
@@ -659,7 +659,7 @@ export const projects = [
     date: "May 2023 - May 2023",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-sky-800/50 to-sky-600/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
     description:
-      "Search the weather conditions of any city using city name,Weather info is fetched using OpenWeather Api.",
+      "Weather App is a lightweight weather checker that fetches real-time conditions for any city using the OpenWeather API. Users can search by city name and instantly see key weather details such as temperature, humidity, wind, and general conditions. I implemented API integration with proper loading and error handling to cover scenarios like invalid city names or network failures. The UI focuses on clarity—showing the most important information first—while keeping the design responsive and clean for both desktop and mobile users.",
     image: image2,
     tags: [
       {
