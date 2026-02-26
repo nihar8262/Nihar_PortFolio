@@ -218,12 +218,16 @@ export const experiences = [
         timeline: "Dec 2025 - Present",
         desc: [
           "Architected and developed a Next.js-based telemetry platform using Redis caching, Server-Sent Events (SSE), and MongoDB aggregation pipelines, reducing repeated database queries by ~65% and improving API latency by 40–50%.",
+          "Implemented an event-driven ingestion pipeline using Kafka (kafkajs) with Zod schema validation and idempotent Mongoose upserts, preventing duplicate telemetry records via unique request identifiers.",
+          "Designed dual-layer validation (Zod + Mongoose runValidators) to reject malformed payloads early while preserving forward compatibility using passthrough schemas and raw payload retention.",
           "Designed and implemented a weekly rollup pipeline to compact 6+ months of historical telemetry into pre-aggregated collections, reducing raw collection size by ~55% and lowering long-range query cost by ~35%.",
           "Engineered interval-aware time-series aggregation (weekly/monthly/quarterly/half-yearly) using MongoDB $dateTrunc and indexed queries, enabling efficient analytics across millions of records.",
+          "Strengthened ingestion reliability for Kafka’s at-least-once delivery by combining unique indexes and idempotent write patterns, ensuring safe reprocessing without data duplication.",
           "Built a secure cron-triggered maintenance API (token-gated) with dry-run validation and batched deletes (10k+ records per cycle) for safe data lifecycle management.",
-          " Optimized frontend analytics to consume pre-aggregated datasets, reducing client compute by ~60% and shrinking network payload size by ~45%.",
+          "Optimized frontend analytics to consume pre-aggregated datasets, reducing client compute by ~60% and shrinking network payload size by ~45%.",
           "Containerized Redis and scheduled cron workloads using Docker Compose, improving deployment reproducibility and reducing environment setup time by ~70%.",
           "Drove data-driven decision making by implementing comprehensive analytics and shareable reporting features, enabling stakeholders to track product quality metrics and testing ROI",
+          "Developed high-DPI dashboard export pipelines (PNG/PDF) and pivot-style CSV reporting for stakeholder-ready weekly/monthly analytics breakdowns."
         ],
       },
       {
@@ -244,6 +248,10 @@ export const experiences = [
         name: "Next Js",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+      },
+      {
+        name: "Kafka",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmiXMJveqOduxNuWTEoEVHGfWCn07iCLoHfQ&s",
       },
       {
         name: "Angular 18",
@@ -276,6 +284,10 @@ export const experiences = [
       {
         name: "Elasticsearch",
         image: "https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg",
+      },
+      {
+        name:"Zod",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaDvE3p92q4_UrWdKie0qHGQvWRG0vbIp3zQ&s",
       },
       {
         name: "Node Js",

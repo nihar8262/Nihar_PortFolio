@@ -87,44 +87,98 @@ export const Experience = () => {
                         className="rounded-xl border border-white/10 bg-black/20 p-4 hover:border-white/20 transition"
                       >
                         <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-1">
-                          <h3 className="text-white font-bold text-base">
-                            {proj.title}
-                          </h3>
+                          <div>
+                            <h3 className="text-white font-bold text-base">
+                              {proj.title}
+                            </h3>
+                            {proj.subtitle && (
+                              <p className="text-slate-300 text-xs sm:text-sm mt-0.5">
+                                {proj.subtitle}
+                              </p>
+                            )}
+                          </div>
+
                           <span className="text-slate-300 text-xs sm:text-sm whitespace-nowrap">
                             {proj.timeline}
                           </span>
                         </div>
 
-                        <ul className="list-disc list-inside text-slate-300 text-sm mt-3 space-y-1.5 leading-relaxed">
-                          {proj.desc?.map((d, j) => (
-                            <li key={j}>{d}</li>
-                          ))}
-                        </ul>
+                        {/* New structured sections */}
+                        {proj.sections?.length > 0 ? (
+                          <div className="mt-4 space-y-4">
+                            {proj.sections.map((section, sIdx) => (
+                              <div key={sIdx}>
+                                <p className="text-white font-semibold text-sm">
+                                  {section.heading}
+                                </p>
+                                <ul className="list-disc list-inside text-slate-300 text-sm mt-2 space-y-1.5 leading-relaxed">
+                                  {section.bullets?.map((b, j) => (
+                                    <li key={j}>{b}</li>
+                                  ))}
+                                </ul>
+                              </div>
+                            ))}
+                          </div>
+                        ) : (
+                          /* Fallback to old desc */
+                          <ul className="list-disc list-inside text-slate-300 text-sm mt-3 space-y-1.5 leading-relaxed">
+                            {proj.desc?.map((d, j) => (
+                              <li key={j}>{d}</li>
+                            ))}
+                          </ul>
+                        )}
+
+                        {/* Project-specific skills */}
+                        {(proj.projectSkills?.length > 0 || proj.skills?.length > 0) && (
+                          <>
+                            <p className="pt-5 font-bold text-white text-sm">
+                              Tech
+                            </p>
+                            <div className="flex flex-wrap gap-2 mt-3">
+                              {(proj.projectSkills || proj.skills).map((skill, k) => (
+                                <div
+                                  key={k}
+                                  className="border border-white/15 bg-black/20 hover:bg-white/10 text-white p-1 pr-2 flex items-center rounded-full gap-2 transition"
+                                >
+                                  <img
+                                    src={skill.image}
+                                    alt={skill.name}
+                                    className="w-6 h-6 rounded-full aspect-square object-cover bg-white"
+                                  />
+                                  <p className="text-xs">{skill.name}</p>
+                                </div>
+                              ))}
+                            </div>
+                          </>
+                        )}
                       </div>
                     ))}
                   </div>
 
-                  {/* Skills */}
-                  {experience.skills?.length > 0 && (
-                    <>
-                      <p className="pt-6 font-bold text-white">Skills</p>
-                      <div className="flex flex-wrap gap-2 mt-3">
-                        {experience.skills.map((skill, i) => (
-                          <div
-                            key={i}
-                            className="border border-white/15 bg-black/20 hover:bg-white/10 text-white p-1 pr-2 flex items-center rounded-full gap-2 transition"
-                          >
-                            <img
-                              src={skill.image}
-                              alt={skill.name}
-                              className="w-6 h-6 rounded-full aspect-square"
-                            />
-                            <p className="text-xs">{skill.name}</p>
-                          </div>
-                        ))}
-                      </div>
-                    </>
-                  )}
+                  {/* Experience-level skills (fallback only if you don't define project skills anywhere) */}
+                  {experience.skills?.length > 0 &&
+                    !experience.projects?.some(
+                      (p) => (p.projectSkills?.length || p.skills?.length)
+                    ) && (
+                      <>
+                        <p className="pt-6 font-bold text-white">Skills</p>
+                        <div className="flex flex-wrap gap-2 mt-3">
+                          {experience.skills.map((skill, i) => (
+                            <div
+                              key={i}
+                              className="border border-white/15 bg-black/20 hover:bg-white/10 text-white p-1 pr-2 flex items-center rounded-full gap-2 transition"
+                            >
+                              <img
+                                src={skill.image}
+                                alt={skill.name}
+                                className="w-6 h-6 rounded-full aspect-square"
+                              />
+                              <p className="text-xs">{skill.name}</p>
+                            </div>
+                          ))}
+                        </div>
+                      </>
+                    )}
 
                   <p className="text-slate-400 text-xs mt-6">
                     Note: Some work is internal; additional technical detail can be shared during interviews.
