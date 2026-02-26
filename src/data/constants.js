@@ -114,6 +114,10 @@ export const skills = [
         image: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
       },
       {
+        name: "Kafka",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmiXMJveqOduxNuWTEoEVHGfWCn07iCLoHfQ&s",
+      },
+      {
         name: "Postman",
         image:
           "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
