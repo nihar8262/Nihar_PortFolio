@@ -111,7 +111,6 @@ export const Experience = () => {
       className="bg-gradient-to-b from-[#1a1a2e] via-[#23234b] to-[#1a1a2e] py-10"
     >
       <div className="mx-auto max-w-4xl px-4">
-        {/* Header */}
         <div className="text-white text-center mt-10 max-w-xl mx-auto">
           <h1 className="font-bold text-3xl mb-6 border-b-2 border-b-yellow-500 py-2">
             Experiences
