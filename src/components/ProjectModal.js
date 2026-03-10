@@ -1,9 +1,20 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { IoClose } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
 import { IoLink } from "react-icons/io5";
 
 export const ProjectModal = ({ project, isOpen, onClose }) => {
+  const [modalGlow, setModalGlow] = useState({ active: false, x: 0, y: 0 });
+
+  const handleModalMouseMove = (event) => {
+    const rect = event.currentTarget.getBoundingClientRect();
+    setModalGlow({
+      active: true,
+      x: event.clientX - rect.left,
+      y: event.clientY - rect.top,
+    });
+  };
+
   // ✅ Hook MUST be at top-level, before any return
   useEffect(() => {
     if (!isOpen) return;
@@ -35,7 +46,32 @@ export const ProjectModal = ({ project, isOpen, onClose }) => {
         <div
           className="relative w-full max-w-[80vw] rounded-2xl border border-white/10 bg-[#0b0b14]/80 shadow-2xl overflow-hidden my-8"
           onMouseDown={(e) => e.stopPropagation()}
+          onMouseMove={handleModalMouseMove}
+          onMouseEnter={handleModalMouseMove}
+          onMouseLeave={() => setModalGlow((prev) => ({ ...prev, active: false }))}
         >
+        <div
+          className="pointer-events-none absolute inset-0 transition-opacity duration-200"
+          style={{
+            opacity: modalGlow.active ? 1 : 0,
+            background: `radial-gradient(260px circle at ${modalGlow.x}px ${modalGlow.y}px, rgba(255, 255, 255, 0.26), rgba(255, 255, 255, 0.08) 35%, rgba(255, 255, 255, 0) 70%)`,
+          }}
+        />
+
+        <div
+          className="pointer-events-none absolute inset-0 rounded-2xl transition-opacity duration-200"
+          style={{
+            opacity: modalGlow.active ? 1 : 0,
+            padding: "1.5px",
+            background: `radial-gradient(220px circle at ${modalGlow.x}px ${modalGlow.y}px, rgba(148, 163, 184, 0.95), rgba(148, 163, 184, 0.45) 35%, rgba(148, 163, 184, 0) 70%)`,
+            WebkitMask:
+              "linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0)",
+            WebkitMaskComposite: "xor",
+            maskComposite: "exclude",
+          }}
+        />
+
+        <div className="relative z-10">
         {/* Close */}
         <button
           onClick={onClose}
@@ -145,6 +181,7 @@ export const ProjectModal = ({ project, isOpen, onClose }) => {
               </p>
             </div>
           </div>
+        </div>
         </div>
       </div>
     </div>

@@ -49,7 +49,7 @@ export const skills = [
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
       {
         name: "TypeScript",
@@ -88,7 +88,7 @@ export const skills = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
       },
       {
         name: "Bootstrap",
@@ -114,7 +114,11 @@ export const skills = [
         image: "https://www.vectorlogo.zone/logos/mongodb/mongodb-icon.svg",
       },
       {
-        name: "Postman",
+        name: "Kafka",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmiXMJveqOduxNuWTEoEVHGfWCn07iCLoHfQ&s",
+      },
+      {
+        name: "Postman", 
         image:
           "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
       },
@@ -218,12 +222,16 @@ export const experiences = [
         timeline: "Dec 2025 - Present",
         desc: [
           "Architected and developed a Next.js-based telemetry platform using Redis caching, Server-Sent Events (SSE), and MongoDB aggregation pipelines, reducing repeated database queries by ~65% and improving API latency by 40–50%.",
+          "Implemented an event-driven ingestion pipeline using Kafka (kafkajs) with Zod schema validation and idempotent Mongoose upserts, preventing duplicate telemetry records via unique request identifiers.",
+          "Designed dual-layer validation (Zod + Mongoose runValidators) to reject malformed payloads early while preserving forward compatibility using passthrough schemas and raw payload retention.",
           "Designed and implemented a weekly rollup pipeline to compact 6+ months of historical telemetry into pre-aggregated collections, reducing raw collection size by ~55% and lowering long-range query cost by ~35%.",
           "Engineered interval-aware time-series aggregation (weekly/monthly/quarterly/half-yearly) using MongoDB $dateTrunc and indexed queries, enabling efficient analytics across millions of records.",
+          "Strengthened ingestion reliability for Kafka’s at-least-once delivery by combining unique indexes and idempotent write patterns, ensuring safe reprocessing without data duplication.",
           "Built a secure cron-triggered maintenance API (token-gated) with dry-run validation and batched deletes (10k+ records per cycle) for safe data lifecycle management.",
-          " Optimized frontend analytics to consume pre-aggregated datasets, reducing client compute by ~60% and shrinking network payload size by ~45%.",
+          "Optimized frontend analytics to consume pre-aggregated datasets, reducing client compute by ~60% and shrinking network payload size by ~45%.",
           "Containerized Redis and scheduled cron workloads using Docker Compose, improving deployment reproducibility and reducing environment setup time by ~70%.",
           "Drove data-driven decision making by implementing comprehensive analytics and shareable reporting features, enabling stakeholders to track product quality metrics and testing ROI",
+          "Developed high-DPI dashboard export pipelines (PNG/PDF) and pivot-style CSV reporting for stakeholder-ready weekly/monthly analytics breakdowns."
         ],
       },
       {
@@ -244,6 +252,10 @@ export const experiences = [
         name: "Next Js",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg",
+      },
+      {
+        name: "Kafka",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmiXMJveqOduxNuWTEoEVHGfWCn07iCLoHfQ&s",
       },
       {
         name: "Angular 18",
@@ -276,6 +288,10 @@ export const experiences = [
       {
         name: "Elasticsearch",
         image: "https://www.vectorlogo.zone/logos/elastic/elastic-icon.svg",
+      },
+      {
+        name:"Zod",
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaDvE3p92q4_UrWdKie0qHGQvWRG0vbIp3zQ&s",
       },
       {
         name: "Node Js",
@@ -428,7 +444,7 @@ export const projects = [
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
       {
         name: "Firebase",
@@ -537,7 +553,7 @@ export const projects = [
   {
     id: 5,
     title: "Net Chillin",
-    date: "Oct 2023 - Present",
+    date: "Oct 2023 - Nov 2023",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-red-800/60 to-red-600/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
     description:
       "Net Chillin is a movie discovery app that helps users explore trending titles, search for specific movies, and view rich details such as synopsis, rating, genres, and cast information. The app fetches live data from the TMDB API and presents it through a smooth, card-based UI with dedicated screens for movie details and actor profiles. I implemented a responsive search experience, optimized API calls using Axios, and structured reusable components for movie lists and detail sections to keep the UI consistent. Firebase is integrated for features like authentication or data storage (depending on your implementation), and the overall architecture is designed to scale as more screens and categories are added.",
@@ -551,7 +567,7 @@ export const projects = [
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
       { name: "Axios", image: "https://axios-http.com/assets/logo.svg" },
       {
@@ -585,12 +601,12 @@ export const projects = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
     ],
     category: "web",
@@ -613,12 +629,12 @@ export const projects = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
     ],
     category: "web",
@@ -641,12 +657,12 @@ export const projects = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
     ],
     category: "web",
@@ -669,12 +685,12 @@ export const projects = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
     ],
     category: "web",

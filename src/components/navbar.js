@@ -16,7 +16,27 @@ export const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [activeSection, setActiveSection] = useState("#about");
+  const [buttonGlow, setButtonGlow] = useState({ id: "", x: 0, y: 0 });
+  const [outerGlow, setOuterGlow] = useState({ active: false, x: 0, y: 0 });
   const isDropdown = useRef();
+
+  const handleButtonMouseMove = (id, event) => {
+    const rect = event.currentTarget.getBoundingClientRect();
+    setButtonGlow({
+      id,
+      x: event.clientX - rect.left,
+      y: event.clientY - rect.top,
+    });
+  };
+
+  const handleOuterMouseMove = (event) => {
+    const rect = event.currentTarget.getBoundingClientRect();
+    setOuterGlow({
+      active: true,
+      x: event.clientX - rect.left,
+      y: event.clientY - rect.top,
+    });
+  };
 
   const closeModal = (e) => {
     if (isDropdown.current === e.target) {
@@ -82,31 +102,96 @@ export const Navbar = () => {
           {nav ? <Mobilenav onClose={() => setNav(false)} /> : null}
         </motion.div>
         {/* Nav content */}
-        <div className="hidden md:flex gap-2 lg:gap-6 border p-1 text-white rounded-3xl  backdrop-blur-lg">
+        <div
+          className="hidden md:flex relative overflow-hidden gap-2 lg:gap-6 border border-white/30 p-1 text-white rounded-3xl backdrop-blur-lg"
+          onMouseMove={handleOuterMouseMove}
+          onMouseEnter={handleOuterMouseMove}
+          onMouseLeave={() => setOuterGlow((prev) => ({ ...prev, active: false }))}
+        >
+          <div
+            className="pointer-events-none absolute inset-0 rounded-3xl transition-opacity duration-200"
+            style={{
+              opacity: outerGlow.active ? 1 : 0,
+              padding: "1px",
+              background: `radial-gradient(180px circle at ${outerGlow.x}px ${outerGlow.y}px, rgba(148, 163, 184, 0.95), rgba(209, 213, 217, 0.45) 35%, rgba(148, 163, 184, 0) 70%)`,
+              WebkitMask:
+                "linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0)",
+              WebkitMaskComposite: "xor",
+              maskComposite: "exclude",
+            }}
+          />
           {navLinks.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className={`rounded-3xl p-2 transition
-                hover:bg-[#631fd9]/20 hover:text-white
+              onMouseMove={(event) => handleButtonMouseMove(link.href, event)}
+              onMouseEnter={(event) => handleButtonMouseMove(link.href, event)}
+              onMouseLeave={() => setButtonGlow((prev) => ({ ...prev, id: "" }))}
+              className={`relative overflow-hidden rounded-3xl p-2 border border-transparent transition
                 ${
                   activeSection === link.href
-                    ? "bg-[#631fd9]/30 backdrop-blur-md text-white font-semibold border border-white/10 shadow-sm"
-                    : ""
+                    ? "bg-[#631fd9]/30 backdrop-blur-md text-white font-semibold border border-purple-500/50 shadow-sm"
+                    : "text-white/90"
                 }
               `}
             >
-              <h3 className="">{link.label}</h3>
+              <div
+                className="pointer-events-none absolute inset-0 rounded-3xl transition-opacity duration-200"
+                style={{
+                  opacity: buttonGlow.id === link.href ? 1 : 0,
+                  background: `radial-gradient(140px circle at ${buttonGlow.x}px ${buttonGlow.y}px, rgba(133, 76, 230, 0.22), rgba(133, 76, 230, 0.1) 35%, rgba(133, 76, 230, 0) 70%)`,
+                }}
+              />
+              <div
+                className="pointer-events-none absolute inset-0 rounded-3xl transition-opacity duration-200"
+                style={{
+                  opacity: buttonGlow.id === link.href ? 1 : 0,
+                  padding: "1.5px",
+                  background: `radial-gradient(140px circle at ${buttonGlow.x}px ${buttonGlow.y}px, rgba(133, 76, 230, 0.95), rgba(133, 76, 230, 0.45) 35%, rgba(133, 76, 230, 0) 70%)`,
+                  WebkitMask:
+                    "linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0)",
+                  WebkitMaskComposite: "xor",
+                  maskComposite: "exclude",
+                }}
+              />
+              <h3 className="relative z-10">{link.label}</h3>
             </a>
           ))}
         </div>
         {/* Button */}
-        <div className="hidden md:block text-white border border-white/20 px-4 py-2 rounded-full hover:bg-[#631fd9] transition cursor-pointer">
-          <a href={Bio.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
-            <div><FaGithub/> </div>
+        <a
+          href={Bio.github}
+          target="_blank"
+          rel="noopener noreferrer"
+          onMouseMove={(event) => handleButtonMouseMove("github", event)}
+          onMouseEnter={(event) => handleButtonMouseMove("github", event)}
+          onMouseLeave={() => setButtonGlow((prev) => ({ ...prev, id: "" }))}
+          className="hidden md:block relative overflow-hidden text-white border border-white/20 px-4 py-2 rounded-full transition cursor-pointer"
+        >
+          <div
+            className="pointer-events-none absolute inset-0 rounded-full transition-opacity duration-200"
+            style={{
+              opacity: buttonGlow.id === "github" ? 1 : 0,
+              background: `radial-gradient(140px circle at ${buttonGlow.x}px ${buttonGlow.y}px, rgba(133, 76, 230, 0.22), rgba(133, 76, 230, 0.1) 35%, rgba(133, 76, 230, 0) 70%)`,
+            }}
+          />
+          <div
+            className="pointer-events-none absolute inset-0 rounded-full transition-opacity duration-200"
+            style={{
+              opacity: buttonGlow.id === "github" ? 1 : 0,
+              padding: "1.5px",
+              background: `radial-gradient(140px circle at ${buttonGlow.x}px ${buttonGlow.y}px, rgba(133, 76, 230, 0.95), rgba(133, 76, 230, 0.45) 35%, rgba(133, 76, 230, 0) 70%)`,
+              WebkitMask:
+                "linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0)",
+              WebkitMaskComposite: "xor",
+              maskComposite: "exclude",
+            }}
+          />
+          <div className="relative z-10 flex items-center gap-1">
+            <div className="bg-purple-500/70 rounded-full p-1 bg-blur"><FaGithub/> </div>
             <div>Github</div>
-          </a>
-        </div>
+          </div>
+        </a>
       </div>
     </div>
   );
