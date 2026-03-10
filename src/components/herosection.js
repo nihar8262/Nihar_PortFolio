@@ -3,11 +3,11 @@ import image from "../Image/portrait.jpg";
 import { Bio } from "../data/constants";
 import Typewriter from "typewriter-effect";
 
-export const Herosection = ({ isDropdown, closeModal }) => {
+export const Herosection = () => {
   return (
     <div
       id="about"
-      className="w-full px-4 py-8 md:py-16 bg-gradient-to-b from-[#1a1a2e] via-[#23234b] to-[#1a1a2e]"
+      className="w-full px-4 py-8 md:py-40 bg-gradient-to-b from-[#1a1a2e] via-[#23234b] to-[#1a1a2e]"
     >
       <div className="flex flex-col-reverse md:flex-row-reverse items-center justify-center max-w-5xl mx-auto gap-6 md:gap-16">
         {/* hero header */}

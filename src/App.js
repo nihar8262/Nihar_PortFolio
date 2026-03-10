@@ -42,7 +42,6 @@ const Wrapper = styled.div`
 function App() {
   return (
     <ThemeProvider theme={darkTheme}>
-    
         <Navbar/>
         <Body>
           <Herosection  />

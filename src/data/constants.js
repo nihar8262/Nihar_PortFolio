@@ -49,7 +49,7 @@ export const skills = [
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
       {
         name: "TypeScript",
@@ -88,7 +88,7 @@ export const skills = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
       },
       {
         name: "Bootstrap",
@@ -118,7 +118,7 @@ export const skills = [
         image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmiXMJveqOduxNuWTEoEVHGfWCn07iCLoHfQ&s",
       },
       {
-        name: "Postman",
+        name: "Postman", 
         image:
           "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
       },
@@ -444,7 +444,7 @@ export const projects = [
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
       {
         name: "Firebase",
@@ -553,7 +553,7 @@ export const projects = [
   {
     id: 5,
     title: "Net Chillin",
-    date: "Oct 2023 - Present",
+    date: "Oct 2023 - Nov 2023",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-red-800/60 to-red-600/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
     description:
       "Net Chillin is a movie discovery app that helps users explore trending titles, search for specific movies, and view rich details such as synopsis, rating, genres, and cast information. The app fetches live data from the TMDB API and presents it through a smooth, card-based UI with dedicated screens for movie details and actor profiles. I implemented a responsive search experience, optimized API calls using Axios, and structured reusable components for movie lists and detail sections to keep the UI consistent. Firebase is integrated for features like authentication or data storage (depending on your implementation), and the overall architecture is designed to scale as more screens and categories are added.",
@@ -567,7 +567,7 @@ export const projects = [
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
       { name: "Axios", image: "https://axios-http.com/assets/logo.svg" },
       {
@@ -601,12 +601,12 @@ export const projects = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
     ],
     category: "web",
@@ -629,12 +629,12 @@ export const projects = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
     ],
     category: "web",
@@ -657,12 +657,12 @@ export const projects = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
     ],
     category: "web",
@@ -685,12 +685,12 @@ export const projects = [
       {
         name: "CSS",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+          "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/960px-Unofficial_JavaScript_logo_2.svg.png",
       },
     ],
     category: "web",
