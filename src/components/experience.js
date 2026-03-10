@@ -142,14 +142,14 @@ export const Experience = () => {
                   ref={(element) => {
                     logoRefs.current[idx] = element;
                   }}
-                  className="hidden md:flex absolute left-0 top-0 items-center justify-center z-20"
+                  className={`hidden md:flex absolute rounded-full left-0 top-0 items-center justify-center z-20 transition-shadow duration-200 ${
+                    activeLogoIndex === idx
+                      ? "shadow-[0_0_16px_4px_rgba(133,76,230,0.95),0_0_30px_10px_rgba(133,76,230,0.55)]"
+                      : ""
+                  }`}
                 >
                   <div
-                    className={`h-14 w-14 rounded-full border-2 border-[#854CE6] bg-white shadow-lg overflow-hidden transition-shadow duration-200 ${
-                      activeLogoIndex === idx
-                        ? "shadow-[0_0_16px_4px_rgba(133,76,230,0.95),0_0_30px_10px_rgba(133,76,230,0.55)]"
-                        : ""
-                    }`}
+                    className="h-14 w-14 rounded-full border-2 border-[#854CE6] bg-white shadow-lg overflow-hidden"
                   >
                     <img
                       src={experience.img}
