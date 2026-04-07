@@ -10,6 +10,7 @@ import image9 from "../Image/fact.png";
 import image10 from "../Image/LineUp.png";
 import image11 from "../Image/Secure-valut.png";
 import image12 from "../Image/True-Feedback.png";
+import image13 from "../Image/Streamify.png";
 
 export const Bio = {
   name: "Nihar Chandra Sharma",
@@ -378,7 +379,7 @@ export const experiences = [
 
 export const projects = [
   {
-    id: 7,
+    id: 0,
     title: "True Feedback",
     date: "March 2024 - June 2024",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-blue-500 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
@@ -464,7 +465,7 @@ export const projects = [
     webapp: "https://github.com/nihar8262/food-app",
   },
   {
-    id: 8,
+    id: 2,
     title: "Secure Vault",
     date: "Jun 2024 - June 2024",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-purple-600/50 to-purple-900/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
@@ -498,7 +499,41 @@ export const projects = [
     webapp: "https://secure-vault.vercel.app/",
   },
   {
-    id: 0,
+    id: 3,
+    title: "Streamify",
+    date: "March 2023 - March 2023",
+    bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-purple-900/50 to-purple-900/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
+    description:
+      "Streamify is a full-stack movie discovery web application built with React, Vite, and Express, designed to deliver a modern streaming-style browsing experience. Users can explore popular, top-rated, and upcoming movies, search titles in real time, view detailed single-movie pages, watch trailers, and discover related recommendations. The platform also includes a Top Grossing section, a Genre Explorer with filtering, sorting, and pagination, responsive layouts across devices, and a custom themed UI with dark/light mode support. To improve security, the app uses a backend proxy for TMDB API requests so sensitive API keys are not exposed in the frontend.",
+    image: image13,
+    tags: [
+      {
+        name: "React JS",
+        image:
+          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
+      },
+      {
+        name: "Express JS",
+        image:
+          "https://ajeetchaulagain.com/static/7cb4af597964b0911fe71cb2f8148d64/87351/express-js.png",
+      },
+      {
+        name: "Node JS",
+        image: "https://nodejs.org/static/images/logo.svg",
+      },
+      { name: "Axios", image: "https://axios-http.com/assets/logo.svg" },
+      {
+        name: "CSS",
+        image:
+          "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
+      },
+    ],
+    category: "web",
+    github: "https://github.com/nihar8262/Streamify",
+    webapp: "https://streamify-five-roan.vercel.app/",
+  },
+  {
+    id: 4,
     title: "FACTS",
     date: "Dec 2023 - March 2024",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-slate-500 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
@@ -522,7 +557,7 @@ export const projects = [
     webapp: "https://facts-nce.vercel.app/",
   },
   {
-    id: 6,
+    id: 5,
     title: "AI Web Summarizer",
     date: "March 2023 - March 2023",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-orange-700/50 to-orange-500/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
@@ -551,7 +586,7 @@ export const projects = [
     webapp: "https://ai-web-summarizer-delta.vercel.app/",
   },
   {
-    id: 5,
+    id: 6,
     title: "Net Chillin",
     date: "Oct 2023 - Nov 2023",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-red-800/60 to-red-600/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
@@ -577,7 +612,7 @@ export const projects = [
     ],
     category: "android app",
     github: "https://github.com/nihar8262/NetChillin",
-    webapp: "https://streamify-six-phi.vercel.app/",
+    webapp: "https://streamify-five-roan.vercel.app/",
   },
   {
     id: 7,
@@ -614,7 +649,7 @@ export const projects = [
     webapp: "https://line-up-psi.vercel.app/",
   },
   {
-    id: 2,
+    id: 8,
     title: "Github Detective",
     date: "Jun 2023 - June 2023",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-blue-800/30 to-sky-600/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
@@ -642,7 +677,7 @@ export const projects = [
     webapp: "https://github-profile-detective.netlify.app/",
   },
   {
-    id: 3,
+    id: 9,
     title: "Password Generator",
     date: "Apr 2023 - May 2023",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-purple-800/50 to-purple-600/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
@@ -670,7 +705,7 @@ export const projects = [
     webapp: "https://password-provider007.netlify.app/",
   },
   {
-    id: 4,
+    id: 10,
     title: "Weather App",
     date: "May 2023 - May 2023",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-sky-800/50 to-sky-600/80 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
