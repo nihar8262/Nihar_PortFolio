@@ -1,9 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import image from "../Image/portrait.jpg";
 import { Bio } from "../data/constants";
 import Typewriter from "typewriter-effect";
 
 export const Herosection = () => {
+  const [buttonGlow, setButtonGlow] = useState({ x: 0, y: 0, active: false });
+
+  const handleButtonMouseMove = (event) => {
+    const rect = event.currentTarget.getBoundingClientRect();
+    setButtonGlow({
+      x: event.clientX - rect.left,
+      y: event.clientY - rect.top,
+      active: true,
+    });
+  };
+
   return (
     <div
       id="about"
@@ -38,11 +49,36 @@ export const Herosection = () => {
             </p>
           </div>
           {/* button */}
-          <div className="mb-5 text-white border border-white/20 px-4 py-2 rounded-full hover:bg-[#631fd9] transition cursor-pointer">
-            <a href={Bio.resume} target="_blank" rel="noopener noreferrer">
-              <p>Resume</p>
-            </a>
-          </div>
+          <a
+            href={Bio.resume}
+            target="_blank"
+            rel="noopener noreferrer"
+            onMouseMove={handleButtonMouseMove}
+            onMouseEnter={handleButtonMouseMove}
+            onMouseLeave={() => setButtonGlow((prev) => ({ ...prev, active: false }))}
+            className="relative overflow-hidden mb-5 text-white border border-white/20 px-4 py-2 rounded-full transition cursor-pointer inline-flex"
+          >
+            <div
+              className="pointer-events-none absolute inset-0 rounded-full transition-opacity duration-200"
+              style={{
+                opacity: buttonGlow.active ? 1 : 0,
+                background: `radial-gradient(140px circle at ${buttonGlow.x}px ${buttonGlow.y}px, rgba(133, 76, 230, 0.22), rgba(133, 76, 230, 0.1) 35%, rgba(133, 76, 230, 0) 70%)`,
+              }}
+            />
+            <div
+              className="pointer-events-none absolute inset-0 rounded-full transition-opacity duration-200"
+              style={{
+                opacity: buttonGlow.active ? 1 : 0,
+                padding: "1.5px",
+                background: `radial-gradient(140px circle at ${buttonGlow.x}px ${buttonGlow.y}px, rgba(133, 76, 230, 0.95), rgba(133, 76, 230, 0.45) 35%, rgba(133, 76, 230, 0) 70%)`,
+                WebkitMask:
+                  "linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0)",
+                WebkitMaskComposite: "xor",
+                maskComposite: "exclude",
+              }}
+            />
+            <p className="relative z-10">Resume</p>
+          </a>
         </div>
         {/* image */}
         <div className="flex justify-center items-center w-full">
