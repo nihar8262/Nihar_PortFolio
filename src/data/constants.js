@@ -383,7 +383,7 @@ export const projects = [
     id: 0,
     title: "True Feedback",
     date: "March 2024 - June 2024",
-    bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-blue-500 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
+    bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-blue-500/30 to-blue-500 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
     description:
       "True Feedback is a secure web platform that enables users to submit honest feedback anonymously, without revealing identity. I architected the frontend using Next.js 14, leveraging its server-side rendering and optimized routing for performance and SEO. On the backend, I used Supabase as a scalable real-time database and authentication provider, with NextAuth/Alt for secure session handling. The system uses JWT tokens for secure access control. This project explores best practices in authentication, data privacy, and modern web performance, while delivering a smooth, responsive UI built with Tailwind CSS and utility-first design principles.",
     image: image12,
@@ -433,7 +433,7 @@ export const projects = [
     id: 0,
     title: "Expense Tracker",
     date: "March 2025 - June 2025",
-    bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-black/30 to-blue-500 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
+    bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-green-600/30 to-green-600 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
     description:
       "A full-stack TypeScript finance app with React, Express, PostgreSQL, and Firebase Auth. Tracks personal expenses with idempotent submissions, manages monthly and category budgets, and supports shared wallets with member invites, three-way expense splitting (equal/fixed/percentage), live balances, and settlement recording. Includes a dashboard with spend trends, auto-generated insights, and a Personal/Wallet data toggle. Features bill reminders, budget alerts, notification center, and Vercel serverless deployment.",
     image: image14,
