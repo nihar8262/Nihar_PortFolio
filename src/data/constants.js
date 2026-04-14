@@ -381,6 +381,51 @@ export const experiences = [
 export const projects = [
   {
     id: 0,
+    title: "Expense Tracker",
+    date: "March 2025 - June 2025",
+    bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-green-600/30 to-green-600 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
+    description:
+      "A full-stack TypeScript finance app with React, Express, PostgreSQL, and Firebase Auth. Tracks personal expenses with idempotent submissions, manages monthly and category budgets, and supports shared wallets with member invites, three-way expense splitting (equal/fixed/percentage), live balances, and settlement recording. Includes a dashboard with spend trends, auto-generated insights, and a Personal/Wallet data toggle. Features bill reminders, budget alerts, notification center, and Vercel serverless deployment.",
+    image: image14,
+    tags: [
+      {
+        name: "React.js",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      },
+      {
+        name: "TypeScript",
+        image:
+          "https://cdn.iconscout.com/icon/free/png-256/free-typescript-3521774-2945272.png?f=webp",
+      },
+      {
+        name: "Tailwind",
+        image:
+          "https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg",
+      },
+      {
+        name: "Node.js",
+        image: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
+      },
+      {
+        name: "Express",
+        image: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
+      },
+      {
+        name: "PostgreSQL",
+        image: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
+      },
+      {
+        name: "Firebase Auth",
+        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
+      },
+    ],
+    category: "web",
+    github: "https://github.com/nihar8262/Expense-Tracker",
+    webapp: "https://expense-tracker-taupe-nu-98.vercel.app/",
+  },
+  {
+    id: 0,
     title: "True Feedback",
     date: "March 2024 - June 2024",
     bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-blue-500/30 to-blue-500 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
@@ -428,51 +473,6 @@ export const projects = [
     category: "web",
     github: "https://github.com/nihar8262/msganonymous",
     webapp: "https://msganonymous.vercel.app/",
-  },
-  {
-    id: 0,
-    title: "Expense Tracker",
-    date: "March 2025 - June 2025",
-    bg: "bg-slate-900 hover:bg-gradient-to-t from-black via-green-600/30 to-green-600 h-full p-6 w-full rounded-lg text-white hover:shadow-md hover:shadow-slate-300/25 transform transition duration-500 hover:scale-105",
-    description:
-      "A full-stack TypeScript finance app with React, Express, PostgreSQL, and Firebase Auth. Tracks personal expenses with idempotent submissions, manages monthly and category budgets, and supports shared wallets with member invites, three-way expense splitting (equal/fixed/percentage), live balances, and settlement recording. Includes a dashboard with spend trends, auto-generated insights, and a Personal/Wallet data toggle. Features bill reminders, budget alerts, notification center, and Vercel serverless deployment.",
-    image: image14,
-    tags: [
-      {
-        name: "React.js",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-      },
-      {
-        name: "TypeScript",
-        image:
-          "https://cdn.iconscout.com/icon/free/png-256/free-typescript-3521774-2945272.png?f=webp",
-      },
-      {
-        name: "Tailwind",
-        image:
-          "https://pbs.twimg.com/profile_images/1730334391501488129/G0R0sjHH_400x400.jpg",
-      },
-      {
-        name: "Node.js",
-        image: "https://www.vectorlogo.zone/logos/nodejs/nodejs-icon.svg",
-      },
-      {
-        name: "Express",
-        image: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png",
-      },
-      {
-        name: "PostgreSQL",
-        image: "https://www.vectorlogo.zone/logos/postgresql/postgresql-icon.svg",
-      },
-      {
-        name: "Firebase Auth",
-        image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
-    ],
-    category: "web",
-    github: "https://github.com/nihar8262/Expense-Tracker",
-    webapp: "https://expense-tracker-taupe-nu-98.vercel.app/",
   },
   {
     id: 1,
